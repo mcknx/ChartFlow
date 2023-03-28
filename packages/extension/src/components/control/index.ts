@@ -17,8 +17,8 @@ class Control {
     {
       key: 'zoom-out',
       iconClass: 'lf-control-zoomOut',
-      title: '缩小流程图',
-      text: '缩小',
+      title: 'zoom-out',
+      text: 'zoom out',
       onClick: () => {
         this.lf.zoom(false);
       },
@@ -26,8 +26,8 @@ class Control {
     {
       key: 'zoom-in',
       iconClass: 'lf-control-zoomIn',
-      title: '放大流程图',
-      text: '放大',
+      title: 'zoom-in',
+      text: 'zoom in',
       onClick: () => {
         this.lf.zoom(true);
       },
@@ -35,8 +35,8 @@ class Control {
     {
       key: 'reset',
       iconClass: 'lf-control-fit',
-      title: '恢复流程原有尺寸',
-      text: '适应',
+      title: 'reset',
+      text: 'reset',
       onClick: () => {
         this.lf.resetZoom();
       },
@@ -44,8 +44,8 @@ class Control {
     {
       key: 'undo',
       iconClass: 'lf-control-undo',
-      title: '回到上一步',
-      text: '上一步',
+      title: 'undo',
+      text: 'undo',
       onClick: () => {
         this.lf.undo();
       },
@@ -53,8 +53,8 @@ class Control {
     {
       key: 'redo',
       iconClass: 'lf-control-redo',
-      title: '移到下一步',
-      text: '下一步',
+      title: 'redo',
+      text: 'redo',
       onClick: () => {
         this.lf.redo();
       },

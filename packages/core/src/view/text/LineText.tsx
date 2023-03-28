@@ -122,6 +122,7 @@ export default class LineText extends BaseText {
       >
         {this.getBackground()}
         <Text {...attr} model={model} />
+        yowhello
       </g>
     );
   }

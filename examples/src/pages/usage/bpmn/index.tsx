@@ -87,14 +87,14 @@ const BpmnExample = () => {
 
   return (
     <>
-      <ExampleHeader>
+      {/* <ExampleHeader>
         <div>
           点击左下角下载 XML，将文件上传到
           <Button type="link" href="https://demo.bpmn.io/" target="_blank">BPMN Demo</Button>
           即可使用
           <Button onClick={catTurboData}>Convert to TurboGraph</Button>
         </div>
-      </ExampleHeader>
+      </ExampleHeader> */}
       <div className="bpmn-example-container">
         <div id="graph" className="viewport"/>
         {tools}
