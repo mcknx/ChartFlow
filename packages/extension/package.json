@@ -1,6 +1,6 @@
 {
   "name": "@chartflow/extension",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Chartflow extension",
   "main": "cjs/index.js",
   "module": "es/index.js",
