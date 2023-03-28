@@ -1,7 +1,7 @@
 {
-  "name": "@logicflow/core",
+  "name": "@chartflow/core",
   "version": "1.2.3",
-  "description": "LogicFlow core, to quickly build flowchart editor",
+  "description": "Chartflow core, to quickly build flowchart editor",
   "main": "dist/entry.js",
   "module": "dist/logic-flow.js",
   "unpkg": "dist/logic-flow.min.js",
@@ -12,7 +12,7 @@
   "types": "types/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/didi/LogicFlow",
+    "url": "https://github.com/mcknx/ChartFlow",
     "directory": "packages/core"
   },
   "scripts": {

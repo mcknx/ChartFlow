@@ -1,14 +1,14 @@
 {
-  "name": "@logicflow/extension",
+  "name": "@chartflow/extension",
   "version": "1.2.3",
-  "description": "LogicFlow extension",
+  "description": "Chartflow extension",
   "main": "cjs/index.js",
   "module": "es/index.js",
   "homepage": "https://docs.logic-flow.cn",
   "types": "es/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/didi/LogicFlow",
+    "url": "https://github.com/didi/ChartFlow",
     "directory": "packages/extension"
   },
   "license": "Apache-2.0",
@@ -32,7 +32,7 @@
     "readme.md"
   ],
   "dependencies": {
-    "@logicflow/core": "^1.2.3",
+    "@chartFlow/core": "^1.2.3",
     "ids": "^1.0.0",
     "lodash-es": "^4.17.21",
     "preact": "^10.4.8"
@@ -44,7 +44,7 @@
     }
   },
   "keywords": [
-    "logicflow",
+    "chartFlow",
     "flowchart",
     "diagram"
   ],
