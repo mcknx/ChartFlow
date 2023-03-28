@@ -1,6 +1,6 @@
 {
   "name": "@chartflow/core",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Chartflow core, to quickly build flowchart editor",
   "main": "dist/entry.js",
   "module": "dist/logic-flow.js",
