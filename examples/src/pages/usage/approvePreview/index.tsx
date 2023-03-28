@@ -13,7 +13,7 @@ const config = {
       color: '#DCDCDC',  // 设置网格的颜色
     }
   },
-  isSilentMode: true,
+  // isSilentMode: true,
   keyboard: { enabled: true },
   style: themeApprove,
 }
@@ -48,10 +48,15 @@ export default function ApproveExample() {
     });
   }
   return (
+    <>
+    <header>
+      hello
+    </header>
     <div className="approve-example-container">
       <div id="graph" className="viewport" />
       {isShowHoverPanel ? hoverPanel(hoverStyle, nodeData) : ''}
     </div>
+    </>
   )
 }
 

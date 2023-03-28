@@ -2,40 +2,40 @@ import React, { ReactElement } from 'react';
 import LogicFlow from '@logicflow/core';
 
 type IProps = {
-  lf: LogicFlow
+  lf: LogicFlow | null;
 }
 
 export default function BpmnPattern(props: IProps): ReactElement {
   const { lf } = props;
   function addStartNode() {
-    lf.dnd.startDrag({
+    lf?.dnd?.startDrag({
       type: 'bpmn:startEvent',
       text: '开始'
     });
   }
   function addUserTask() {
-    lf.dnd.startDrag({
+    lf?.dnd.startDrag({
       type: 'bpmn:userTask',
     });
   }
   function addServiceTask() {
-    lf.dnd.startDrag({
+    lf?.dnd.startDrag({
       type: 'bpmn:serviceTask',
     });
   }
   function addGateWay() {
-    lf.dnd.startDrag({
+    lf?.dnd.startDrag({
       type: 'bpmn:exclusiveGateway',
     });
   }
   function addEndNode() {
-    lf.dnd.startDrag({
+    lf?.dnd.startDrag({
       type: 'bpmn:endEvent',
       text: '结束'
     });
   }
   function openSelection() {
-    lf.updateEditConfig({
+    lf?.updateEditConfig({
       stopMoveGraph: true,
     });
   }
@@ -47,7 +47,7 @@ export default function BpmnPattern(props: IProps): ReactElement {
   return (
     <div className="pattern">
       <div className="pattern-selection" onMouseDown={() => openSelection()} />
-      <div>选区</div>
+      <div>select</div>
       <div className="pattern-start" onMouseDown={() => addStartNode()} />
       <div>开始</div>
       <div className="pattern-user" onMouseDown={() => addUserTask()}></div>

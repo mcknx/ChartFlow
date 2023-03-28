@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useEffect, useState } from 'react';
 import LogicFlow from '@logicflow/core';
 import {
   BpmnElement,
@@ -7,6 +7,10 @@ import {
   Control,
   Menu,
   SelectionSelect,
+  toTurboData, 
+  toLogicflowData,
+  BpmnAdapter,
+  NodeResize
 } from '@logicflow/extension';
 import BpmnPattern from './pattern';
 import BpmnIo from './io';
@@ -15,77 +19,88 @@ import { Button } from 'antd';
 import 'antd/lib/button/style/index.css';
 import '@logicflow/extension/lib/style/index.css';
 import ExampleHeader from '../../../components/example-header';
+import demoData from './demoData';
+import HtmlCard from "./HtmlCard";
+import { themeApprove, data } from './config';
 
 const config = {
-  stopScrollGraph: true,
-  stopZoomGraph: true,
+  // stopScrollGraph: true,
+  // stopZoomGraph: true,
   metaKeyMultipleSelected: true,
   grid: {
     size: 10,
-    type: 'dot',
+    type: 'mesh',
+    config: {
+      color: '#DCDCDC',  // 设置网格的颜色
+    }
   },
   keyboard: {
     enabled: true,
   },
   snapline: true,
+  style: themeApprove,
 }
 
-type IState = {
-  rendered: boolean;
-}
-type IProps = {}
+let lf: LogicFlow;
+const BpmnExample = () => {
+  const [rendered, setRendered] = useState(false);
+  // const [lf, setLf] = useState<LogicFlow | null>(null);
 
-export default class BpmnExample extends Component<IProps, IState>{
-  lf: LogicFlow;
-  constructor(props: {} | Readonly<{}>) {
-    super(props);
-    this.state = {
-      rendered: true,
-    };
-  }
-  componentDidMount() {
+  useEffect(() => {
     LogicFlow.use(BpmnElement);
     LogicFlow.use(BpmnXmlAdapter);
     LogicFlow.use(Snapshot);
     LogicFlow.use(Control);
     LogicFlow.use(Menu);
     LogicFlow.use(SelectionSelect);
-    const lf = new LogicFlow({
+    LogicFlow.use(BpmnAdapter);
+    LogicFlow.use(NodeResize);
+
+    const logicFlow = new LogicFlow({
       ...config,
       container: document.querySelector('#graph') as HTMLElement
     });
-    lf.render()
-    this.lf = lf;
-    this.setState({
-      rendered: true,
-    });
+
+    logicFlow.register(HtmlCard);
+    logicFlow.renderRawData(demoData);
+    lf = logicFlow;
+    setRendered(true);
+
+    // return () => {
+    //   logicFlow.destroy();
+    // }
+  }, []);
+
+  const catTurboData = () => {
+    const turboData = toTurboData(lf);
   }
-  render() {
-    const { rendered } = this.state;
-    let tools;
-    if (rendered) {
-      tools = (
+
+  let tools;
+  if (lf !== null && rendered) {
+    tools = (
+      <div>
+        <BpmnPattern lf={lf} />
+        <BpmnIo lf={lf} />
+      </div>
+    );
+  }
+
+  return (
+    <>
+      <ExampleHeader>
         <div>
-          <BpmnPattern lf={this.lf} />
-          <BpmnIo lf={this.lf} />
+          点击左下角下载 XML，将文件上传到
+          <Button type="link" href="https://demo.bpmn.io/" target="_blank">BPMN Demo</Button>
+          即可使用
+          <Button onClick={catTurboData}>Convert to TurboGraph</Button>
         </div>
-      );
-    }
-    return (
-      <>
-        <ExampleHeader>
-          <div>
-            点击左下角下载 XML，将文件上传到
-            <Button type="link" href="https://demo.bpmn.io/" target="_blank">BPMN Demo</Button>
-            即可使用
-          </div>
-        </ExampleHeader>
-        <div className="bpmn-example-container">
-          <div id="graph" className="viewport"></div>
-          {tools}
-        </div>
-      </>
-    )
-  }
+      </ExampleHeader>
+      <div className="bpmn-example-container">
+        <div id="graph" className="viewport"/>
+        {tools}
+      </div>
+    </>
+  )
 }
 
+export default BpmnExample;
