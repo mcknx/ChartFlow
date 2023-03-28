@@ -1,4 +1,4 @@
-import { h } from '@logicflow/core'
+import { h } from 'chartflow-editor-core'
 import RectNode from '../basic/RectNode'
 
 // 图片-基础节点

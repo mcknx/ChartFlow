@@ -1,4 +1,4 @@
-import { HtmlNode, HtmlNodeModel } from '@logicflow/core';
+import { HtmlNode, HtmlNodeModel } from 'chartflow-editor-core';
 import './style.css';
 
 class HtmlCard extends HtmlNode {

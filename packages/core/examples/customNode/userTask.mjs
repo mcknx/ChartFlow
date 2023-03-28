@@ -1,4 +1,4 @@
-// import { RectNode, RectNodeModel, h } from "@logicflow/core";
+// import { RectNode, RectNodeModel, h } from "chartflow-editor-core";
 
 class UserTaskView extends RectNode {
   getLabelShape() {

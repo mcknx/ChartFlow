@@ -105,6 +105,6 @@ module.exports = {
     ],
   },
   externals: {
-    '@logicflow/core': 'window',
+    'chartflow-editor-core': 'window',
   },
 };

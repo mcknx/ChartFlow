@@ -1,4 +1,4 @@
-import { CircleNode, CircleNodeModel, EventArgs } from '@logicflow/core';
+import { CircleNode, CircleNodeModel, EventArgs } from 'chartflow-editor-core';
 
 class CustomCircleModel extends CircleNodeModel {
   setAttributes() {

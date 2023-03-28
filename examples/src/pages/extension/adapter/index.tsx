@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import LogicFlow from '@logicflow/core';
-import { BpmnAdapter, Control, DndPanel } from '@logicflow/extension';
+import LogicFlow from 'chartflow-editor-core';
+import { BpmnAdapter, Control, DndPanel } from 'chartflow-editor-extension';
 import ExampleHeader from '../../../components/example-header';
 import { Button } from 'antd';
 import { ExportOutlined } from '@ant-design/icons';

@@ -1,5 +1,5 @@
 {
-  "name": "@logicflow/extension",
+  "name": "chartflow-editor-extension",
   "version": "1.2.3",
   "description": "LogicFlow extension",
   "main": "cjs/index.js",
@@ -8,7 +8,7 @@
   "types": "es/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/didi/LogicFlow",
+    "url": "https://github.com/mcknx/ChartFlowEditor",
     "directory": "packages/extension"
   },
   "license": "Apache-2.0",
@@ -32,7 +32,7 @@
     "readme.md"
   ],
   "dependencies": {
-    "@logicflow/core": "^1.2.3",
+    "chartflow-editor-core": "^1.2.3",
     "ids": "^1.0.0",
     "lodash-es": "^4.17.21",
     "preact": "^10.4.8"

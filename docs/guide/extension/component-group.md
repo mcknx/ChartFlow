@@ -5,10 +5,10 @@ LogicFlow支持分组。分组是LogicFlow内置的自定义节点, 所以开发
 ## 默认分组
 
 ```js
-import LogicFlow from '@logicflow/core';
-import "@logicflow/core/dist/style/index.css";
-import { Group } from '@logicflow/extension';
-import '@logicflow/extension/lib/style/index.css'
+import LogicFlow from 'chartflow-editor-core';
+import "chartflow-editor-core/dist/style/index.css";
+import { Group } from 'chartflow-editor-extension';
+import 'chartflow-editor-extension/lib/style/index.css'
 
 const lf = new LogicFlow({
   // ...
@@ -55,7 +55,7 @@ lf.render({
 在实际业务中，我们建议和自定义节点一样，开发者基于自己的业务自定义分组，然后给分组取个符合自己业务的名字。例如在bpmn中的子分组，取名叫做`subProcess`，然后自定义分组节点的样式。
 
 ```js
-import { GroupNode } from '@logicflow/extension';
+import { GroupNode } from 'chartflow-editor-extension';
 
 class MyGroup extends GroupNode.view {
 }

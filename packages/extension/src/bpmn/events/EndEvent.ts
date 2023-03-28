@@ -1,4 +1,4 @@
-import { CircleNode, CircleNodeModel, h } from '@logicflow/core';
+import { CircleNode, CircleNodeModel, h } from 'chartflow-editor-core';
 import { getBpmnId } from '../getBpmnId';
 
 class EndEventModel extends CircleNodeModel {

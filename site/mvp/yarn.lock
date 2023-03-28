@@ -952,21 +952,21 @@
     cssnano-preset-default "^4.0.0"
     postcss "^7.0.0"
 
-"@logicflow/core@^1.2.0-next.1", "@logicflow/core@^1.2.0-next.4":
+"chartflow-editor-core@^1.2.0-next.1", "chartflow-editor-core@^1.2.0-next.4":
   version "1.2.0-next.1"
-  resolved "http://registry.npm.xiaojukeji.com/@logicflow/core/download/@logicflow/core-1.2.0-next.1.tgz#c867eb93ec56ec7b38c9ed7e18089a494743fe13"
+  resolved "http://registry.npm.xiaojukeji.com/chartflow-editor-core/download/chartflow-editor-core-1.2.0-next.1.tgz#c867eb93ec56ec7b38c9ed7e18089a494743fe13"
   integrity sha1-yGfrk+xW7Hs4ye1+GAiaSUdD/hM=
   dependencies:
     "@types/mousetrap" "^1.6.4"
     mousetrap "^1.6.5"
     preact "^10.4.8"
 
-"@logicflow/extension@^1.2.0-next.4":
+"chartflow-editor-extension@^1.2.0-next.4":
   version "1.2.0-next.1"
-  resolved "http://registry.npm.xiaojukeji.com/@logicflow/extension/download/@logicflow/extension-1.2.0-next.1.tgz#3c085349b318df9e45e1fd1d3c7cb719de37878f"
+  resolved "http://registry.npm.xiaojukeji.com/chartflow-editor-extension/download/chartflow-editor-extension-1.2.0-next.1.tgz#3c085349b318df9e45e1fd1d3c7cb719de37878f"
   integrity sha1-PAhTSbMY355F4f0dPHy3Gd43h48=
   dependencies:
-    "@logicflow/core" "^1.2.0-next.1"
+    "chartflow-editor-core" "^1.2.0-next.1"
     ids "^1.0.0"
     preact "^10.4.8"
 

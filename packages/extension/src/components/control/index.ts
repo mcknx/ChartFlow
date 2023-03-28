@@ -1,4 +1,4 @@
-import LogicFlow from '@logicflow/core';
+import LogicFlow from 'chartflow-editor-core';
 
 type ControlItem = {
   key: string;

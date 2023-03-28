@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import LogicFlow from '@logicflow/core';
-import { Control } from '@logicflow/extension';
-import '@logicflow/extension/lib/style/index.css';
+import LogicFlow from 'chartflow-editor-core';
+import { Control } from 'chartflow-editor-extension';
+import 'chartflow-editor-extension/lib/style/index.css';
 import ExampleHeader from '../../../../components/example-header';
 
 const config = {

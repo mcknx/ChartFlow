@@ -29,10 +29,10 @@
 </template>
 
 <script>
-import LogicFlow from '@logicflow/core'
-import { SelectionSelect } from '@logicflow/extension'
-import '@logicflow/core/dist/style/index.css'
-import '@logicflow/extension/lib/style/index.css'
+import LogicFlow from 'chartflow-editor-core'
+import { SelectionSelect } from 'chartflow-editor-extension'
+import 'chartflow-editor-core/dist/style/index.css'
+import 'chartflow-editor-extension/lib/style/index.css'
 import DiagramToolbar from './DiagramToolbar.vue'
 import DiagramSidebar from './DiagramSidebar.vue'
 import PropertyPanel from './PropertyPanel.vue'

@@ -8,9 +8,9 @@
 引入组件，启用默认菜单
 
 ```ts
-import LogicFlow from '@logicflow/core';
-import { Menu } from '@logicflow/extension';
-import '@logicflow/extension/lib/style/index.css'
+import LogicFlow from 'chartflow-editor-core';
+import { Menu } from 'chartflow-editor-extension';
+import 'chartflow-editor-extension/lib/style/index.css'
 
 LogicFlow.use(Menu);
 ```
@@ -48,8 +48,8 @@ LogicFlow.use(Menu);
 通过`lf.extension.menu.addMenuConfig`方法可以在原有菜单的基础上追加新的选项，具体配置示例如下：
 
 ```ts
-import LogicFlow from '@logicflow/core';
-import { Menu } from '@logicflow/extension';
+import LogicFlow from 'chartflow-editor-core';
+import { Menu } from 'chartflow-editor-extension';
 
 
 // 实例化 Logic Flow
@@ -163,7 +163,7 @@ lf.extension.menu.setMenuByType({
 
 ```ts
 // customNode.ts
-import { RectNode, RectNodeModel } from '@logicflow/core';
+import { RectNode, RectNodeModel } from 'chartflow-editor-core';
 
 class CustomeModel extends RectNodeModel {
   setAttributes() {
@@ -218,7 +218,7 @@ lf.on('custom:event', (r) => {
 
 ```ts
 // custom.ts
-import { PolylineEdge, PolylineEdgeModel } from '@logicflow/core';
+import { PolylineEdge, PolylineEdgeModel } from 'chartflow-editor-core';
 class CustomModel extends PolylineEdgeModel {
   setAttributes() {
     // 右键菜单

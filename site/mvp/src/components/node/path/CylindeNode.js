@@ -1,5 +1,5 @@
-import { h } from '@logicflow/core'
-import { RectResize } from '@logicflow/extension'
+import { h } from 'chartflow-editor-core'
+import { RectResize } from 'chartflow-editor-extension'
 import { getShapeStyleFuction, getTextStyleFunction } from '../getShapeStyleUtil'
 
 // 圆柱体

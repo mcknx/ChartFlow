@@ -1,5 +1,5 @@
 import { h, Component } from 'preact';
-import { BaseNodeModel, DiamondNodeModel, EllipseNodeModel, GraphModel, LogicFlowUtil, RectNodeModel } from '@logicflow/core';
+import { BaseNodeModel, DiamondNodeModel, EllipseNodeModel, GraphModel, LogicFlowUtil, RectNodeModel } from 'chartflow-editor-core';
 import Rect from '../BasicShape/Rect';
 import { getDiamondResizeEdgePoint, getEllipseResizeEdgePoint, getRectResizeEdgePoint, ModelType } from './Util';
 

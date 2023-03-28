@@ -3,7 +3,7 @@
  * 需要指定开始节点类型。
  */
 
-import LogicFlow from '@logicflow/core';
+import LogicFlow from 'chartflow-editor-core';
 import { getBpmnId } from '../../bpmn/getBpmnId';
 
 type Path = {

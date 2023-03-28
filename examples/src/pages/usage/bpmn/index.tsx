@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import LogicFlow from '@logicflow/core';
+import LogicFlow from 'chartflow-editor-core';
 import {
   BpmnElement,
   BpmnXmlAdapter,
@@ -11,13 +11,13 @@ import {
   toLogicflowData,
   BpmnAdapter,
   NodeResize
-} from '@logicflow/extension';
+} from 'chartflow-editor-extension';
 import BpmnPattern from './pattern';
 import BpmnIo from './io';
 import './index.css';
 import { Button } from 'antd';
 import 'antd/lib/button/style/index.css';
-import '@logicflow/extension/lib/style/index.css';
+import 'chartflow-editor-extension/lib/style/index.css';
 import ExampleHeader from '../../../components/example-header';
 import demoData from './demoData';
 import HtmlCard from "./HtmlCard";

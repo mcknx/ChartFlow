@@ -1,5 +1,5 @@
-// import LogicFlow from "@logicflow/core";
-// import "@logicflow/core/dist/style/index.css";
+// import LogicFlow from "chartflow-editor-core";
+// import "chartflow-editor-core/dist/style/index.css";
 import HtmlCard from "./HtmlCard.mjs";
 import CustomEdge from "./CustomEdge.mjs";
 import CustomEdge2 from "./CustomEdge2.mjs";

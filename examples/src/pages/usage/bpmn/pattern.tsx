@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react';
-import LogicFlow from '@logicflow/core';
+import LogicFlow from 'chartflow-editor-core';
 
 type IProps = {
   lf: LogicFlow | null;

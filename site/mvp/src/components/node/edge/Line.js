@@ -1,4 +1,4 @@
-import { LineEdge, LineEdgeModel } from '@logicflow/core'
+import { LineEdge, LineEdgeModel } from 'chartflow-editor-core'
 import { getShapeStyleFuction, getTextStyleFunction } from '../getShapeStyleUtil'
 
 // 直线

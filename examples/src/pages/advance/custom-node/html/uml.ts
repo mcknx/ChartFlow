@@ -1,5 +1,5 @@
-import { HtmlNodeModel, HtmlNode } from '@logicflow/core';
-// import HtmlNode from '@logicflow/core';
+import { HtmlNodeModel, HtmlNode } from 'chartflow-editor-core';
+// import HtmlNode from 'chartflow-editor-core';
 import './uml.css';
 
 class UmlModel extends HtmlNodeModel {

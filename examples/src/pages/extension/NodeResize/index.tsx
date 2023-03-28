@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import LogicFlow from '@logicflow/core';
-import { NodeResize } from '@logicflow/extension';
+import LogicFlow from 'chartflow-editor-core';
+import { NodeResize } from 'chartflow-editor-extension';
 import ExampleHeader from '../../../components/example-header';
 import 'antd/lib/button/style/index.css';
 import StartEvent from './CustomeNode/StartEvent';

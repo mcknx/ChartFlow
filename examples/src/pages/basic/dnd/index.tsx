@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import LogicFlow from "@logicflow/core";
+import LogicFlow from "chartflow-editor-core";
 import Panel from "./components/panel";
 import ExampleHeader from "../../../components/example-header";
 import './index.css';

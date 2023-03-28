@@ -1,4 +1,4 @@
-import { DiamondResize } from '@logicflow/extension'
+import { DiamondResize } from 'chartflow-editor-extension'
 import { getShapeStyleFuction, getTextStyleFunction } from '../getShapeStyleUtil'
 
 // 菱形

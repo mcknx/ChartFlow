@@ -1,4 +1,4 @@
-import { h } from '@logicflow/core'
+import { h } from 'chartflow-editor-core'
 import RectNode from '../basic/RectNode'
 import { getShapeStyleFuction, getTextStyleFunction } from '../getShapeStyleUtil'
 

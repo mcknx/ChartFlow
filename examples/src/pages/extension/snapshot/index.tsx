@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import LogicFlow from '@logicflow/core';
-import { Snapshot } from '@logicflow/extension';
+import LogicFlow from 'chartflow-editor-core';
+import { Snapshot } from 'chartflow-editor-extension';
 import ExampleHeader from '../../../components/example-header';
 import { Button } from 'antd';
 import { DownloadOutlined } from '@ant-design/icons';

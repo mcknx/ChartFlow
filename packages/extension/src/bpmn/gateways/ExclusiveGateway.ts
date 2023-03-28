@@ -1,4 +1,4 @@
-import { h, PolygonNode, PolygonNodeModel } from '@logicflow/core';
+import { h, PolygonNode, PolygonNodeModel } from 'chartflow-editor-core';
 import { getBpmnId } from '../getBpmnId';
 import { ExclusiveGatewayAttribute } from '../../type/index';
 

@@ -145,7 +145,7 @@ export default class LogicFlow {
    * 方式一（推荐）
    * 详情见 todo: docs link
    * @example
-   * import { RectNode, RectModel } from '@logicflow/core'
+   * import { RectNode, RectModel } from 'chartflow-editor-core'
    * class CustomView extends RectNode {
    * }
    * class CustomModel extends RectModel {

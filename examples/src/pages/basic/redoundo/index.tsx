@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-import LogicFlow from '@logicflow/core';
-import { Control } from '@logicflow/extension';
+import LogicFlow from 'chartflow-editor-core';
+import { Control } from 'chartflow-editor-extension';
 import ExampleHeader from '../../../components/example-header';
-import '@logicflow/extension/lib/style/index.css';
+import 'chartflow-editor-extension/lib/style/index.css';
 
 const config = {
   stopScrollGraph: true,

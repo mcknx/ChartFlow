@@ -4,7 +4,7 @@
  * 未完善
  */
 
-import LogicFlow from '@logicflow/core';
+import LogicFlow from 'chartflow-editor-core';
 
 const POSITION_TYPE = {
   LEFT_TOP: -1,

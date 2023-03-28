@@ -1,4 +1,4 @@
-import { HtmlNodeModel, HtmlNode } from '@logicflow/core';
+import { HtmlNodeModel, HtmlNode } from 'chartflow-editor-core';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './uml.css';

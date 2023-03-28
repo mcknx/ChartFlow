@@ -1,4 +1,4 @@
-import { EllipseResize } from '@logicflow/extension'
+import { EllipseResize } from 'chartflow-editor-extension'
 import { getShapeStyleFuction, getTextStyleFunction } from '../getShapeStyleUtil'
 
 // 圆形

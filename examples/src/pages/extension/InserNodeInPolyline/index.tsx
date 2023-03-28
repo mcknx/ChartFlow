@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import LogicFlow from '@logicflow/core';
-import { InsertNodeInPolyline, DndPanel, SelectionSelect } from '@logicflow/extension';
+import LogicFlow from 'chartflow-editor-core';
+import { InsertNodeInPolyline, DndPanel, SelectionSelect } from 'chartflow-editor-extension';
 import ExampleHeader from '../../../components/example-header';
 import 'antd/lib/button/style/index.css';
 import './index.css';

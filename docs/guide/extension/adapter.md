@@ -82,8 +82,8 @@ LogicFlow 内置通用的 bpmn-js 兼容的转换工具。可以支持将 LogicF
 ### bpmnAdapter
 
 ```ts
-import LogicFlow from '@logicflow/core';
-import { BpmnAdapter } from '@logicflow/extension';
+import LogicFlow from 'chartflow-editor-core';
+import { BpmnAdapter } from 'chartflow-editor-extension';
 
 // 注册插件
 LogicFlow.use(BpmnAdapter);

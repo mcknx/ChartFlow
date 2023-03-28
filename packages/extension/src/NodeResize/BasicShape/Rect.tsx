@@ -1,4 +1,4 @@
-import { h, Point, Size } from '@logicflow/core';
+import { h, Point, Size } from 'chartflow-editor-core';
 
 // TODO: 常用的属性集合定一个interface
 type IProps = {

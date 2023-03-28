@@ -1,6 +1,6 @@
-import { h } from '@logicflow/core';
-import { DiamondResize } from '@logicflow/extension';
-import { BaseNodeModel } from '@logicflow/core';
+import { h } from 'chartflow-editor-core';
+import { DiamondResize } from 'chartflow-editor-extension';
+import { BaseNodeModel } from 'chartflow-editor-core';
 
 type PointTuple = [number, number];
 

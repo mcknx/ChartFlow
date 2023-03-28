@@ -1,4 +1,4 @@
-import { BaseNode, BaseNodeModel } from '@logicflow/core'
+import { BaseNode, BaseNodeModel } from 'chartflow-editor-core'
 
 class BaseNewNode extends BaseNode {
 }

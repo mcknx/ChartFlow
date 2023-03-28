@@ -1,4 +1,4 @@
-import { RectNodeModel } from '@logicflow/core';
+import { RectNodeModel } from 'chartflow-editor-core';
 import { RectLabelNodeView } from './RectLabelNodeView';
 
 const RectLabelNode = {

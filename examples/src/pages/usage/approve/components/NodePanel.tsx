@@ -1,5 +1,5 @@
 import React from 'react';
-import LogicFlow from '@logicflow/core';
+import LogicFlow from 'chartflow-editor-core';
 import { approveNodes } from '../config';
 import { HtmlNodeConfig } from '../type';
 

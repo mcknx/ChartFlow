@@ -1,4 +1,4 @@
-import LogicFlow, { BaseNodeModel } from '@logicflow/core';
+import LogicFlow, { BaseNodeModel } from 'chartflow-editor-core';
 import GroupNode from './GroupNode';
 
 type BaseNodeId = string;

@@ -1,4 +1,4 @@
-import { PolygonNode, PolygonNodeModel } from '@logicflow/core';
+import { PolygonNode, PolygonNodeModel } from 'chartflow-editor-core';
 class TriangleNodeModel extends PolygonNodeModel {
   setAttributes() {
     // 多边形的节点属性 points

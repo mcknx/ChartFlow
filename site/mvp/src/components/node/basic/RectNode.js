@@ -1,4 +1,4 @@
-import { RectResize } from '@logicflow/extension'
+import { RectResize } from 'chartflow-editor-extension'
 import { getShapeStyleFuction, getTextStyleFunction } from '../getShapeStyleUtil'
 
 // 矩形

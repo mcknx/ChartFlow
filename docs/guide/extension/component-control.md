@@ -3,9 +3,9 @@
 ### 启用
 
 ```ts
-import LogicFlow from '@logicflow/core';
-import { Control } from '@logicflow/extension';
-import '@logicflow/extension/lib/style/index.css'
+import LogicFlow from 'chartflow-editor-core';
+import { Control } from 'chartflow-editor-extension';
+import 'chartflow-editor-extension/lib/style/index.css'
 
 LogicFlow.use(Control);
 ```

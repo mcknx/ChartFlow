@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import LogicFlow from '@logicflow/core';
-import { Menu } from '@logicflow/extension';
+import LogicFlow from 'chartflow-editor-core';
+import { Menu } from 'chartflow-editor-extension';
 import ExampleHeader from '../../../../components/example-header';
 import CustomCircle from './CustomCircle';
 import './menu.css';

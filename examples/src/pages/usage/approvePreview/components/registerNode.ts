@@ -9,9 +9,9 @@ import LogicFlow, {
   PolylineEdgeModel,
   h,
   EdgeConfig,
-} from "@logicflow/core"
-import GraphModel from "@logicflow/core/types/model/GraphModel";
-import BaseNodeModel from "@logicflow/core/types/model/node/BaseNodeModel";
+} from "chartflow-editor-core"
+import GraphModel from "chartflow-editor-core/types/model/GraphModel";
+import BaseNodeModel from "chartflow-editor-core/types/model/node/BaseNodeModel";
 import { nodeProperty } from '../type';
 
 const statusColor = {

@@ -1,4 +1,4 @@
-import { h } from '@logicflow/core';
+import { h } from 'chartflow-editor-core';
 
 export default function Polygon({
   fillOpacity = 1,

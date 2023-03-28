@@ -1,4 +1,4 @@
-import { BaseNodeModel } from '@logicflow/core';
+import { BaseNodeModel } from 'chartflow-editor-core';
 
 type PointTuple = [number, number];
 

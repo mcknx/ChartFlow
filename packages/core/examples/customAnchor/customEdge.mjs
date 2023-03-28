@@ -1,4 +1,4 @@
-// import { BezierEdge, BezierEdgeModel } from "@logicflow/core";
+// import { BezierEdge, BezierEdgeModel } from "chartflow-editor-core";
 
 class CustomEdge extends BezierEdge {}
 

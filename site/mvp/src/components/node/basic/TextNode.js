@@ -1,4 +1,4 @@
-import { TextNodeModel, TextNode } from '@logicflow/core'
+import { TextNodeModel, TextNode } from 'chartflow-editor-core'
 import { getShapeStyleFuction, getTextStyleFunction } from '../getShapeStyleUtil'
 
 // 文本节点

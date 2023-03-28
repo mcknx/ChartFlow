@@ -47,29 +47,29 @@ LogicFlow内部存在7种基础节点, 自定义节点的时候可以基于需�
 
 ```js
 // 矩形
-import { RectNode, RectNodeModel } from "@logicflow/core";
+import { RectNode, RectNodeModel } from "chartflow-editor-core";
 // 圆形
-import { CircleNode, CircleNodeModel } from "@logicflow/core";
+import { CircleNode, CircleNodeModel } from "chartflow-editor-core";
 // 椭圆
-import { EllipseNode, EllipseNodeModel } from "@logicflow/core";
+import { EllipseNode, EllipseNodeModel } from "chartflow-editor-core";
 // 多边形
-import { PolygonNode, PolygonNodeModel } from "@logicflow/core";
+import { PolygonNode, PolygonNodeModel } from "chartflow-editor-core";
 // 菱形
-import { DiamondNode, DiamondNodeModel } from "@logicflow/core";
+import { DiamondNode, DiamondNodeModel } from "chartflow-editor-core";
 // 文本
-import { TextNode, TextNodeModel } from "@logicflow/core";
+import { TextNode, TextNodeModel } from "chartflow-editor-core";
 // HTML
-import { HtmlNode, HtmlNodeModel } from "@logicflow/core";
+import { HtmlNode, HtmlNodeModel } from "chartflow-editor-core";
 ```
 
 ### 二次自定义
 
-由于基于继承的自定义机制，LogicFlow还支持基于自定义节点的基础上，进行二次自定义。以`@logicflow/extension`中提供的可缩放节点为例。
+由于基于继承的自定义机制，LogicFlow还支持基于自定义节点的基础上，进行二次自定义。以`chartflow-editor-extension`中提供的可缩放节点为例。
 
 LogicFlow基础节点不支持节点缩放，于是LogicFlow在`extension`包中，基于基础节点，封装了对节点缩放的逻辑，然后发布出去。这样开发者可以直接基于`extension`中的可缩放节点进行自定义。
 
 ```js
-import { RectResize } from '@logicflow/extension'
+import { RectResize } from 'chartflow-editor-extension'
 class CustomNodeModel extends RectResize.model {}
 class CustomNode extends RectResize.view {}
 ```
@@ -83,7 +83,7 @@ class CustomNode extends RectResize.view {}
 
 ```js
 // UserTaskNode.js
-import { RectNode, RectNodeModel } from "@logicflow/core";
+import { RectNode, RectNodeModel } from "chartflow-editor-core";
 
 class UserTaskModel extends RectNodeModel {}
 
@@ -407,7 +407,7 @@ path标签属性：
 以正方形（square）为例，在边时我们希望它的下一节点只能是圆形节点（circle），那么我们应该给`square`添加作为`source`节点的校验规则。
 
 ```ts
-import { RectNode, RectNodeModel } from '@logicflow/core';
+import { RectNode, RectNodeModel } from 'chartflow-editor-core';
 class SquareModel extends RectNodeModel {
   initNodeData(data) {
     super.initNodeData(data);
@@ -498,7 +498,7 @@ lf.graphModel.addNodeMoveRules((model, deltaX, deltaY) => {
 对于各种基础类型节点，我们都内置了默认锚点。LogicFlow支持通过重写获取锚点的方法来实现自定义节点的锚点。
 
 ```ts
-import { RectNode, RectNodeModel } from '@logicflow/core';
+import { RectNode, RectNodeModel } from 'chartflow-editor-core';
 
 class SquareModel extends RectNodeModel {
   initNodeData(data) {
@@ -636,7 +636,7 @@ class UmlNode extends HtmlNode {
 因为自定义html节点对外暴露的是一个DOM节点，所以你可以使用框架现有的能力来渲染节点。在react中，我们利用`reactDom`的`render`方法，将react组件渲染到dom节点上。
 
 ```jsx
-import { HtmlNodeModel, HtmlNode } from '@logicflow/core';
+import { HtmlNodeModel, HtmlNode } from 'chartflow-editor-core';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './uml.css';

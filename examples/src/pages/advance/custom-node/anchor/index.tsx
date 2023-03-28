@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import LogicFlow from '@logicflow/core';
+import LogicFlow from 'chartflow-editor-core';
 import ExampleHeader from '../../../../components/example-header';
 import { Square } from '../square';
 import { CircleAnchor } from './circle';

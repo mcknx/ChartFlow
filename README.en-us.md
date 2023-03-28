@@ -10,14 +10,14 @@
 
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@logicflow/core">
-    <img src="https://img.shields.io/npm/v/@logicflow/core" alt="Version">
+  <a href="https://www.npmjs.com/package/chartflow-editor-core">
+    <img src="https://img.shields.io/npm/v/chartflow-editor-core" alt="Version">
   </a>
-  <a href="https://www.npmjs.com/package/@logicflow/core">
-    <img src="https://img.shields.io/npm/dm/@logicflow/core" alt="Download">
+  <a href="https://www.npmjs.com/package/chartflow-editor-core">
+    <img src="https://img.shields.io/npm/dm/chartflow-editor-core" alt="Download">
   </a>
   <a href="https://github.com/didi/LogicFlow/blob/master/LICENSE">
-    <img src="https://img.shields.io/npm/l/@logicflow/core" alt="LICENSE">
+    <img src="https://img.shields.io/npm/l/chartflow-editor-core" alt="LICENSE">
   </a>
 </p>
 
@@ -46,7 +46,7 @@ LogicFlow is a flowchart editing framework , providing a series of functions nec
 
 ```sh
 # npm
-$ npm install @logicflow/core @logicflow/extension --save
+$ npm install chartflow-editor-core chartflow-editor-extension --save
 
 ```
 

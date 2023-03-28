@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import DndTool from './DndTool';
-import LogicFlow, { Extension } from '@logicflow/core';
+import LogicFlow, { Extension } from 'chartflow-editor-core';
 
 const Dnd: Extension = {
   pluginName: 'dnd',

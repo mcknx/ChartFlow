@@ -1,4 +1,4 @@
-import { Point, PolylineEdgeModel, BaseNodeModel } from '@logicflow/core';
+import { Point, PolylineEdgeModel, BaseNodeModel } from 'chartflow-editor-core';
 import { cloneDeep } from 'lodash-es';
 // 这个里面的函数有些在core中已经存在，为了解耦关系，没有引用
 

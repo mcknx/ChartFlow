@@ -46,7 +46,7 @@
 
 ### 内置插件
 
-如果我们只提供表示这图编辑部分的`@logicflow/core`，那么意味 LogicFlow 就是一个半成品，既不利于推广，也不利于上手使用。所以我们将 LogicFlow 将非核心功能例如菜单、工具栏等组件; 各类特色形态节点; 一些常见的流程实际应用场景等都采用插件的方式实现放到了`@logicflow/extension`包中。其中就有 bpmn-js 插件，这里我大致介绍一下 LogicFlow 是如何如何利用插件机制，去实现兼容 bpmn-js 的插件。
+如果我们只提供表示这图编辑部分的`chartflow-editor-core`，那么意味 LogicFlow 就是一个半成品，既不利于推广，也不利于上手使用。所以我们将 LogicFlow 将非核心功能例如菜单、工具栏等组件; 各类特色形态节点; 一些常见的流程实际应用场景等都采用插件的方式实现放到了`chartflow-editor-extension`包中。其中就有 bpmn-js 插件，这里我大致介绍一下 LogicFlow 是如何如何利用插件机制，去实现兼容 bpmn-js 的插件。
 
 1. 首先是 bpmn-js 中的各种节点和边，比如用户节点(userTask)、判断节点(gateWay)、顺序流(sequenceFlow)等，我们利用 LogicFlow 自定义节点和自定义边机制, 将所有的 bpmn-js 需要的基础图形封装成 BpmnElement 插件。
 2. LogicFlow 默认生成的数据格式是节点和边组成的 json, 而 bpmn-js 需要生成的数据格式是满足 bpmn 2.0 标准的xml。所以我们提供了一个 BpmnAdapter，在数据输入到 LogicFlow 的时候将 bpmn xml 转换为 LogicFlow Data, 在输出的时候又将 LogicFlow Data 转换为 bpmn xml.
@@ -58,26 +58,26 @@
 LogicFlow 本身只是一个单纯的流程图编辑器，不带有业务属性。为了更好的易用性，我们提供了 Bpmn-js  插件，让使用 bpmn-js 的项目能够快速替换。有了 Bpmn 插件后，直接通过 LogicFlow 装载 bpmn 插件，这个页面就表现成为 bpmn-js 了。
 
 ```javascript
-import LogicFlow from '@logicflow/core';
-import { Bpmn } from '@logicflow/extension';
+import LogicFlow from 'chartflow-editor-core';
+import { Bpmn } from 'chartflow-editor-extension';
 
 LogicFlow.use(Bpmn);
 ```
 
 ## LogicFlow 的拓展能力
 
-前面提到过，插件的扩展性是否强大，是看核心程序提供的 API 是否有足够的扩展性。LogicFlow 在绝大多数 API 上的设计，其目标就是支持的拓展能力。我们在`@logicflow/extension`中开发的插件，也是一种验证我们 API 的方式。从下图可以看到LogicFlow 在支持拓展能力上的整体思路。
+前面提到过，插件的扩展性是否强大，是看核心程序提供的 API 是否有足够的扩展性。LogicFlow 在绝大多数 API 上的设计，其目标就是支持的拓展能力。我们在`chartflow-editor-extension`中开发的插件，也是一种验证我们 API 的方式。从下图可以看到LogicFlow 在支持拓展能力上的整体思路。
 
 ![LogicFlow3](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/69420b337fd047209054f9bf8e94be8c~tplv-k3u1fbpfcp-zoom-1.image)
 
 ### 自定义节点
 
-为了提高易用性，在节点方面，LogicFlow 内置了基础节点，然后在`@logicflow/extension`中也实现了一些特殊节点。开发者在实际使用中，可以基于这些基础节点和特殊节点进行自定义满足其业务需求的节点。
+为了提高易用性，在节点方面，LogicFlow 内置了基础节点，然后在`chartflow-editor-extension`中也实现了一些特殊节点。开发者在实际使用中，可以基于这些基础节点和特殊节点进行自定义满足其业务需求的节点。
 
-1. 基础节点: 在`@logicflow/core`内部有一个 BaseNode 抽象类，这个类中实现了流程图中节点所需的绝大部分逻辑，例如节点拖动、点击等事件处理和边处理等。同时也有获取节点外观属性、获取节点基础属性、获取节点配置自定义属性等可以被子类重写的方法。
+1. 基础节点: 在`chartflow-editor-core`内部有一个 BaseNode 抽象类，这个类中实现了流程图中节点所需的绝大部分逻辑，例如节点拖动、点击等事件处理和边处理等。同时也有获取节点外观属性、获取节点基础属性、获取节点配置自定义属性等可以被子类重写的方法。
 2. 内置节点：BaseNode 是抽象类，为了易用性，我们在 LogicFlow 中还内置了一些基础图形的节点。比如矩形（RectNode）、圆形(CircleNode)、菱形(DiamondNode)和多边形(PolygonNode)。
-3. 扩展节点：为了让开发者在使用的减少接入成本，LogicFlow 除了在核心包中提供了内置节点给与开发继承自定义外，还在扩展包`@logicflow/extension`中提供了更多的节点。例如圆柱体(CylinderNode)、带有图标的矩形(RectIconNode)等。
-4. 自定义节点：开发者可以在自己的项目中基于 LogicFlow 中的任何一种节点(包括`@logicflow/extension`中的节点)，采用继承重写对应的方法，实现自己业务需求的节点。同样，开发者自己自定义的节点也可以成为插件，开源到社区中。后续我们会增加 LogicFlow 的插件市场，到时大家可以自由选择自己项目所需的节点。
+3. 扩展节点：为了让开发者在使用的减少接入成本，LogicFlow 除了在核心包中提供了内置节点给与开发继承自定义外，还在扩展包`chartflow-editor-extension`中提供了更多的节点。例如圆柱体(CylinderNode)、带有图标的矩形(RectIconNode)等。
+4. 自定义节点：开发者可以在自己的项目中基于 LogicFlow 中的任何一种节点(包括`chartflow-editor-extension`中的节点)，采用继承重写对应的方法，实现自己业务需求的节点。同样，开发者自己自定义的节点也可以成为插件，开源到社区中。后续我们会增加 LogicFlow 的插件市场，到时大家可以自由选择自己项目所需的节点。
 
 ![LogicFlow4](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7259c3bfddc4426c8f573108aed7903b~tplv-k3u1fbpfcp-zoom-1.image)
 
@@ -124,7 +124,7 @@ class CnodeModel extends RectModel {
 LogicFlow 中提供了一个`properties`字段用于开发者存放自己业务相关的属性，然后可以在自定义节点的时候，基于这些`properties`自己进行处理。
 
 ```javascript
-import { TriangleNode, PolygonNodeModel } from '@logicflow/core';
+import { TriangleNode, PolygonNodeModel } from 'chartflow-editor-core';
 
 class CustomProcessNode extends TriangleNode {
   static extendKey = 'CustomProcessNode';

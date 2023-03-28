@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [1.2.3](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.2.2...@logicflow/core@1.2.3) (2023-03-25)
+## [1.2.3](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.2.2...chartflow-editor-core@1.2.3) (2023-03-25)
 
 
 ### Bug Fixes
@@ -14,7 +14,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.2.2](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.2.0...@logicflow/core@1.2.2) (2023-03-25)
+## [1.2.2](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.2.0...chartflow-editor-core@1.2.2) (2023-03-25)
 
 
 ### Bug Fixes
@@ -27,15 +27,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.2.1](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.2.0...@logicflow/core@1.2.1) (2023-03-14)
+## [1.2.1](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.2.0...chartflow-editor-core@1.2.1) (2023-03-14)
 
-**Note:** Version bump only for package @logicflow/core
-
-
+**Note:** Version bump only for package chartflow-editor-core
 
 
 
-# [1.2.0](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.2.0-next.5...@logicflow/core@1.2.0) (2023-03-13)
+
+
+# [1.2.0](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.2.0-next.5...chartflow-editor-core@1.2.0) (2023-03-13)
 
 
 ### Bug Fixes
@@ -46,7 +46,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [1.2.0-next.5](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.2.0-next.4...@logicflow/core@1.2.0-next.5) (2023-03-10)
+# [1.2.0-next.5](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.2.0-next.4...chartflow-editor-core@1.2.0-next.5) (2023-03-10)
 
 
 ### Bug Fixes
@@ -59,15 +59,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [1.2.0-next.4](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.2.0-next.3...@logicflow/core@1.2.0-next.4) (2023-02-22)
+# [1.2.0-next.4](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.2.0-next.3...chartflow-editor-core@1.2.0-next.4) (2023-02-22)
 
-**Note:** Version bump only for package @logicflow/core
-
-
+**Note:** Version bump only for package chartflow-editor-core
 
 
 
-# [1.2.0-next.3](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.2.0-next.2...@logicflow/core@1.2.0-next.3) (2023-02-13)
+
+
+# [1.2.0-next.3](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.2.0-next.2...chartflow-editor-core@1.2.0-next.3) (2023-02-13)
 
 
 ### Bug Fixes
@@ -78,7 +78,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [1.2.0-next.2](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.31...@logicflow/core@1.2.0-next.2) (2023-01-13)
+# [1.2.0-next.2](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.31...chartflow-editor-core@1.2.0-next.2) (2023-01-13)
 
 
 ### Bug Fixes
@@ -99,8 +99,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.1.31](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.30...@logicflow/core@1.1.31) (2022-11-12)
-# [1.2.0-next.1](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.2.0-next.0...@logicflow/core@1.2.0-next.1) (2022-10-10)
+## [1.1.31](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.30...chartflow-editor-core@1.1.31) (2022-11-12)
+# [1.2.0-next.1](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.2.0-next.0...chartflow-editor-core@1.2.0-next.1) (2022-10-10)
 
 
 ### Features
@@ -111,7 +111,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [1.2.0-next.0](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.29...@logicflow/core@1.2.0-next.0) (2022-09-29)
+# [1.2.0-next.0](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.29...chartflow-editor-core@1.2.0-next.0) (2022-09-29)
 
 
 ### Bug Fixes
@@ -128,7 +128,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.1.30](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.29...@logicflow/core@1.1.30) (2022-10-30)
+## [1.1.30](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.29...chartflow-editor-core@1.1.30) (2022-10-30)
 
 
 ### Bug Fixes
@@ -146,7 +146,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.1.29](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.28...@logicflow/core@1.1.29) (2022-09-24)
+## [1.1.29](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.28...chartflow-editor-core@1.1.29) (2022-09-24)
 
 
 ### Bug Fixes
@@ -164,7 +164,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.1.28](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.27...@logicflow/core@1.1.28) (2022-09-17)
+## [1.1.28](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.27...chartflow-editor-core@1.1.28) (2022-09-17)
 
 
 ### Features
@@ -175,15 +175,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.1.27](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.26...@logicflow/core@1.1.27) (2022-09-13)
+## [1.1.27](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.26...chartflow-editor-core@1.1.27) (2022-09-13)
 
-**Note:** Version bump only for package @logicflow/core
-
-
+**Note:** Version bump only for package chartflow-editor-core
 
 
 
-## [1.1.26](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.25...@logicflow/core@1.1.26) (2022-08-27)
+
+
+## [1.1.26](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.25...chartflow-editor-core@1.1.26) (2022-08-27)
 
 
 ### Bug Fixes
@@ -199,7 +199,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.1.25](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.24...@logicflow/core@1.1.25) (2022-08-21)
+## [1.1.25](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.24...chartflow-editor-core@1.1.25) (2022-08-21)
 
 
 ### Features
@@ -210,31 +210,31 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.1.24](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.23...@logicflow/core@1.1.24) (2022-08-11)
+## [1.1.24](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.23...chartflow-editor-core@1.1.24) (2022-08-11)
 
-**Note:** Version bump only for package @logicflow/core
-
-
-
-
-
-## [1.1.23](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.22...@logicflow/core@1.1.23) (2022-08-04)
-
-**Note:** Version bump only for package @logicflow/core
+**Note:** Version bump only for package chartflow-editor-core
 
 
 
 
 
-## [1.1.22](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.21...@logicflow/core@1.1.22) (2022-07-13)
+## [1.1.23](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.22...chartflow-editor-core@1.1.23) (2022-08-04)
 
-**Note:** Version bump only for package @logicflow/core
-
-
+**Note:** Version bump only for package chartflow-editor-core
 
 
 
-## [1.1.21](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.20...@logicflow/core@1.1.21) (2022-07-02)
+
+
+## [1.1.22](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.21...chartflow-editor-core@1.1.22) (2022-07-13)
+
+**Note:** Version bump only for package chartflow-editor-core
+
+
+
+
+
+## [1.1.21](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.20...chartflow-editor-core@1.1.21) (2022-07-02)
 
 
 ### Bug Fixes
@@ -246,7 +246,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.1.20](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.19...@logicflow/core@1.1.20) (2022-06-08)
+## [1.1.20](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.19...chartflow-editor-core@1.1.20) (2022-06-08)
 
 
 ### Bug Fixes
@@ -263,7 +263,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.1.19](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.18...@logicflow/core@1.1.19) (2022-06-01)
+## [1.1.19](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.18...chartflow-editor-core@1.1.19) (2022-06-01)
 
 
 ### Features
@@ -274,23 +274,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.1.18](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.17...@logicflow/core@1.1.18) (2022-05-23)
+## [1.1.18](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.17...chartflow-editor-core@1.1.18) (2022-05-23)
 
-**Note:** Version bump only for package @logicflow/core
-
-
-
-
-
-## [1.1.17](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.16...@logicflow/core@1.1.17) (2022-05-23)
-
-**Note:** Version bump only for package @logicflow/core
+**Note:** Version bump only for package chartflow-editor-core
 
 
 
 
 
-## [1.1.16](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.14...@logicflow/core@1.1.16) (2022-05-18)
+## [1.1.17](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.16...chartflow-editor-core@1.1.17) (2022-05-23)
+
+**Note:** Version bump only for package chartflow-editor-core
+
+
+
+
+
+## [1.1.16](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.14...chartflow-editor-core@1.1.16) (2022-05-18)
 
 
 ### Bug Fixes
@@ -311,7 +311,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.1.15](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.14...@logicflow/core@1.1.15) (2022-05-07)
+## [1.1.15](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.14...chartflow-editor-core@1.1.15) (2022-05-07)
 
 
 ### Bug Fixes
@@ -331,15 +331,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.1.14](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.13...@logicflow/core@1.1.14) (2022-04-22)
+## [1.1.14](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.13...chartflow-editor-core@1.1.14) (2022-04-22)
 
-**Note:** Version bump only for package @logicflow/core
-
-
+**Note:** Version bump only for package chartflow-editor-core
 
 
 
-## [1.1.13](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.12...@logicflow/core@1.1.13) (2022-04-16)
+
+
+## [1.1.13](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.12...chartflow-editor-core@1.1.13) (2022-04-16)
 
 
 ### Features
@@ -350,15 +350,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.1.12](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.12-alpha.0...@logicflow/core@1.1.12) (2022-04-13)
+## [1.1.12](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.12-alpha.0...chartflow-editor-core@1.1.12) (2022-04-13)
 
-**Note:** Version bump only for package @logicflow/core
-
-
+**Note:** Version bump only for package chartflow-editor-core
 
 
 
-## [1.1.12-alpha.0](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.11...@logicflow/core@1.1.12-alpha.0) (2022-04-09)
+
+
+## [1.1.12-alpha.0](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.11...chartflow-editor-core@1.1.12-alpha.0) (2022-04-09)
 
 
 ### Bug Fixes
@@ -374,31 +374,31 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.1.11](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.10...@logicflow/core@1.1.11) (2022-03-29)
+## [1.1.11](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.10...chartflow-editor-core@1.1.11) (2022-03-29)
 
-**Note:** Version bump only for package @logicflow/core
-
-
-
-
-
-## [1.1.10](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.9...@logicflow/core@1.1.10) (2022-03-29)
-
-**Note:** Version bump only for package @logicflow/core
+**Note:** Version bump only for package chartflow-editor-core
 
 
 
 
 
-## [1.1.9](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.9-alpha.1...@logicflow/core@1.1.9) (2022-03-26)
+## [1.1.10](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.9...chartflow-editor-core@1.1.10) (2022-03-29)
 
-**Note:** Version bump only for package @logicflow/core
-
-
+**Note:** Version bump only for package chartflow-editor-core
 
 
 
-## [1.1.9-alpha.1](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.9-alpha.0...@logicflow/core@1.1.9-alpha.1) (2022-03-26)
+
+
+## [1.1.9](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.9-alpha.1...chartflow-editor-core@1.1.9) (2022-03-26)
+
+**Note:** Version bump only for package chartflow-editor-core
+
+
+
+
+
+## [1.1.9-alpha.1](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.9-alpha.0...chartflow-editor-core@1.1.9-alpha.1) (2022-03-26)
 
 
 ### Features
@@ -410,7 +410,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.1.9-alpha.0](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.8-alpha.0...@logicflow/core@1.1.9-alpha.0) (2022-03-25)
+## [1.1.9-alpha.0](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.8-alpha.0...chartflow-editor-core@1.1.9-alpha.0) (2022-03-25)
 
 
 ### Bug Fixes
@@ -427,7 +427,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.1.8](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.8-alpha.0...@logicflow/core@1.1.8) (2022-03-25)
+## [1.1.8](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.8-alpha.0...chartflow-editor-core@1.1.8) (2022-03-25)
 
 
 ### Bug Fixes
@@ -443,7 +443,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.1.8-alpha.0](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.7-alpha.0...@logicflow/core@1.1.8-alpha.0) (2022-03-25)
+## [1.1.8-alpha.0](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.7-alpha.0...chartflow-editor-core@1.1.8-alpha.0) (2022-03-25)
 
 
 ### Bug Fixes
@@ -466,15 +466,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.1.7](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.7-alpha.0...@logicflow/core@1.1.7) (2022-03-07)
+## [1.1.7](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.7-alpha.0...chartflow-editor-core@1.1.7) (2022-03-07)
 
-**Note:** Version bump only for package @logicflow/core
-
-
+**Note:** Version bump only for package chartflow-editor-core
 
 
 
-## [1.1.7-alpha.0](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.6...@logicflow/core@1.1.7-alpha.0) (2022-03-03)
+
+
+## [1.1.7-alpha.0](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.6...chartflow-editor-core@1.1.7-alpha.0) (2022-03-03)
 
 
 ### Bug Fixes
@@ -490,15 +490,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.1.6](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.5...@logicflow/core@1.1.6) (2022-03-02)
+## [1.1.6](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.5...chartflow-editor-core@1.1.6) (2022-03-02)
 
-**Note:** Version bump only for package @logicflow/core
-
-
+**Note:** Version bump only for package chartflow-editor-core
 
 
 
-## [1.1.5](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.4...@logicflow/core@1.1.5) (2022-03-02)
+
+
+## [1.1.5](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.4...chartflow-editor-core@1.1.5) (2022-03-02)
 
 
 ### Bug Fixes
@@ -517,7 +517,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.1.4](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.3...@logicflow/core@1.1.4) (2022-02-23)
+## [1.1.4](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.3...chartflow-editor-core@1.1.4) (2022-02-23)
 
 
 ### Bug Fixes
@@ -535,7 +535,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.1.3](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.3-alpha.0...@logicflow/core@1.1.3) (2022-02-18)
+## [1.1.3](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.3-alpha.0...chartflow-editor-core@1.1.3) (2022-02-18)
 
 
 ### Bug Fixes
@@ -546,15 +546,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.1.3-alpha.0](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.1...@logicflow/core@1.1.3-alpha.0) (2022-02-18)
+## [1.1.3-alpha.0](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.1...chartflow-editor-core@1.1.3-alpha.0) (2022-02-18)
 
-**Note:** Version bump only for package @logicflow/core
-
-
+**Note:** Version bump only for package chartflow-editor-core
 
 
 
-## [1.1.1](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.0...@logicflow/core@1.1.1) (2022-02-10)
+
+
+## [1.1.1](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.0...chartflow-editor-core@1.1.1) (2022-02-10)
 
 
 ### Features
@@ -565,31 +565,31 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [1.1.0](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.0-alpha.7...@logicflow/core@1.1.0) (2022-02-09)
+# [1.1.0](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.0-alpha.7...chartflow-editor-core@1.1.0) (2022-02-09)
 
-**Note:** Version bump only for package @logicflow/core
-
-
-
-
-
-# [1.1.0-alpha.7](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.0-alpha.6...@logicflow/core@1.1.0-alpha.7) (2022-02-09)
-
-**Note:** Version bump only for package @logicflow/core
+**Note:** Version bump only for package chartflow-editor-core
 
 
 
 
 
-# [1.1.0-alpha.6](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.0-alpha.4...@logicflow/core@1.1.0-alpha.6) (2022-01-27)
+# [1.1.0-alpha.7](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.0-alpha.6...chartflow-editor-core@1.1.0-alpha.7) (2022-02-09)
 
-**Note:** Version bump only for package @logicflow/core
-
-
+**Note:** Version bump only for package chartflow-editor-core
 
 
 
-# [1.1.0-alpha.4](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.0-alpha.2...@logicflow/core@1.1.0-alpha.4) (2022-01-27)
+
+
+# [1.1.0-alpha.6](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.0-alpha.4...chartflow-editor-core@1.1.0-alpha.6) (2022-01-27)
+
+**Note:** Version bump only for package chartflow-editor-core
+
+
+
+
+
+# [1.1.0-alpha.4](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.0-alpha.2...chartflow-editor-core@1.1.0-alpha.4) (2022-01-27)
 
 
 ### Bug Fixes
@@ -610,39 +610,39 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [1.1.0-alpha.2](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.0-alpha.1...@logicflow/core@1.1.0-alpha.2) (2022-01-21)
+# [1.1.0-alpha.2](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.0-alpha.1...chartflow-editor-core@1.1.0-alpha.2) (2022-01-21)
 
-**Note:** Version bump only for package @logicflow/core
-
-
-
-
-
-# [1.1.0-alpha.1](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.1.0-alpha.0...@logicflow/core@1.1.0-alpha.1) (2022-01-21)
-
-**Note:** Version bump only for package @logicflow/core
+**Note:** Version bump only for package chartflow-editor-core
 
 
 
 
 
-# [1.1.0-alpha.0](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.0.7...@logicflow/core@1.1.0-alpha.0) (2022-01-20)
+# [1.1.0-alpha.1](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.1.0-alpha.0...chartflow-editor-core@1.1.0-alpha.1) (2022-01-21)
 
-**Note:** Version bump only for package @logicflow/core
-
-
-
-
-
-## [1.0.7](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.0.7-alpha.1...@logicflow/core@1.0.7) (2022-01-18)
-
-**Note:** Version bump only for package @logicflow/core
+**Note:** Version bump only for package chartflow-editor-core
 
 
 
 
 
-## [1.0.7-alpha.1](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.0.7-alpha.0...@logicflow/core@1.0.7-alpha.1) (2022-01-18)
+# [1.1.0-alpha.0](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.0.7...chartflow-editor-core@1.1.0-alpha.0) (2022-01-20)
+
+**Note:** Version bump only for package chartflow-editor-core
+
+
+
+
+
+## [1.0.7](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.0.7-alpha.1...chartflow-editor-core@1.0.7) (2022-01-18)
+
+**Note:** Version bump only for package chartflow-editor-core
+
+
+
+
+
+## [1.0.7-alpha.1](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.0.7-alpha.0...chartflow-editor-core@1.0.7-alpha.1) (2022-01-18)
 
 
 ### Bug Fixes
@@ -653,7 +653,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.0.7-alpha.0](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.0.4...@logicflow/core@1.0.7-alpha.0) (2022-01-18)
+## [1.0.7-alpha.0](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.0.4...chartflow-editor-core@1.0.7-alpha.0) (2022-01-18)
 
 
 ### Bug Fixes
@@ -672,7 +672,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.0.4](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.0.0-alpha.12...@logicflow/core@1.0.4) (2022-01-12)
+## [1.0.4](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.0.0-alpha.12...chartflow-editor-core@1.0.4) (2022-01-12)
 
 
 ### Bug Fixes
@@ -694,7 +694,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.0.1](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.0.0-alpha.12...@logicflow/core@1.0.1) (2022-01-07)
+## [1.0.1](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.0.0-alpha.12...chartflow-editor-core@1.0.1) (2022-01-07)
 
 
 ### Bug Fixes
@@ -712,7 +712,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [1.0.0-alpha.12](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.0.0-alpha.11...@logicflow/core@1.0.0-alpha.12) (2021-12-30)
+# [1.0.0-alpha.12](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.0.0-alpha.11...chartflow-editor-core@1.0.0-alpha.12) (2021-12-30)
 
 
 ### Bug Fixes
@@ -723,7 +723,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [1.0.0-alpha.11](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.0.0-alpha.10...@logicflow/core@1.0.0-alpha.11) (2021-12-29)
+# [1.0.0-alpha.11](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.0.0-alpha.10...chartflow-editor-core@1.0.0-alpha.11) (2021-12-29)
 
 
 ### Bug Fixes
@@ -734,7 +734,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [1.0.0-alpha.10](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.0.0-alpha.9...@logicflow/core@1.0.0-alpha.10) (2021-12-29)
+# [1.0.0-alpha.10](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.0.0-alpha.9...chartflow-editor-core@1.0.0-alpha.10) (2021-12-29)
 
 
 ### Bug Fixes
@@ -750,7 +750,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [1.0.0-alpha.9](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.0.0-alpha.8...@logicflow/core@1.0.0-alpha.9) (2021-12-24)
+# [1.0.0-alpha.9](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.0.0-alpha.8...chartflow-editor-core@1.0.0-alpha.9) (2021-12-24)
 
 
 ### Features
@@ -761,7 +761,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [1.0.0-alpha.8](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.0.0-alpha.7...@logicflow/core@1.0.0-alpha.8) (2021-12-22)
+# [1.0.0-alpha.8](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.0.0-alpha.7...chartflow-editor-core@1.0.0-alpha.8) (2021-12-22)
 
 
 ### Bug Fixes
@@ -777,7 +777,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [1.0.0-alpha.7](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.0.0-alpha.6...@logicflow/core@1.0.0-alpha.7) (2021-12-22)
+# [1.0.0-alpha.7](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.0.0-alpha.6...chartflow-editor-core@1.0.0-alpha.7) (2021-12-22)
 
 
 ### Bug Fixes
@@ -788,7 +788,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [1.0.0-alpha.6](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.0.0-alpha.4...@logicflow/core@1.0.0-alpha.6) (2021-12-22)
+# [1.0.0-alpha.6](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.0.0-alpha.4...chartflow-editor-core@1.0.0-alpha.6) (2021-12-22)
 
 
 ### Bug Fixes
@@ -802,7 +802,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [1.0.0-alpha.4](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.7.14...@logicflow/core@1.0.0-alpha.4) (2021-12-21)
+# [1.0.0-alpha.4](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.7.14...chartflow-editor-core@1.0.0-alpha.4) (2021-12-21)
 
 
 ### Bug Fixes
@@ -823,15 +823,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [1.0.0-alpha.3](https://github.com/didi/LogicFlow/compare/@logicflow/core@1.0.0-alpha.1...@logicflow/core@1.0.0-alpha.3) (2021-12-09)
+# [1.0.0-alpha.3](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@1.0.0-alpha.1...chartflow-editor-core@1.0.0-alpha.3) (2021-12-09)
 
-**Note:** Version bump only for package @logicflow/core
-
-
+**Note:** Version bump only for package chartflow-editor-core
 
 
 
-# [1.0.0-alpha.1](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.7.13...@logicflow/core@1.0.0-alpha.1) (2021-12-09)
+
+
+# [1.0.0-alpha.1](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.7.13...chartflow-editor-core@1.0.0-alpha.1) (2021-12-09)
 
 
 ### Features
@@ -843,7 +843,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.7.13](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.7.12...@logicflow/core@0.7.13) (2021-12-09)
+## [0.7.13](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.7.12...chartflow-editor-core@0.7.13) (2021-12-09)
 
 
 ### Features
@@ -855,7 +855,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.7.13-alpha.1](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.7.13-alpha.0...@logicflow/core@0.7.13-alpha.1) (2021-12-07)
+## [0.7.13-alpha.1](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.7.13-alpha.0...chartflow-editor-core@0.7.13-alpha.1) (2021-12-07)
 
 
 ### Features
@@ -866,7 +866,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.7.13-alpha.0](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.7.12...@logicflow/core@0.7.13-alpha.0) (2021-12-07)
+## [0.7.13-alpha.0](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.7.12...chartflow-editor-core@0.7.13-alpha.0) (2021-12-07)
 
 
 ### Features
@@ -877,7 +877,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.7.12](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.7.11...@logicflow/core@0.7.12) (2021-12-04)
+## [0.7.12](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.7.11...chartflow-editor-core@0.7.12) (2021-12-04)
 
 
 ### Features
@@ -888,7 +888,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.7.11](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.7.10...@logicflow/core@0.7.11) (2021-11-30)
+## [0.7.11](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.7.10...chartflow-editor-core@0.7.11) (2021-11-30)
 
 
 ### Features
@@ -899,15 +899,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.7.10](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.7.9...@logicflow/core@0.7.10) (2021-11-26)
+## [0.7.10](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.7.9...chartflow-editor-core@0.7.10) (2021-11-26)
 
-**Note:** Version bump only for package @logicflow/core
-
-
+**Note:** Version bump only for package chartflow-editor-core
 
 
 
-## [0.7.9](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.7.8...@logicflow/core@0.7.9) (2021-11-23)
+
+
+## [0.7.9](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.7.8...chartflow-editor-core@0.7.9) (2021-11-23)
 
 
 ### Bug Fixes
@@ -918,15 +918,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.7.8](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.7.7...@logicflow/core@0.7.8) (2021-11-22)
+## [0.7.8](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.7.7...chartflow-editor-core@0.7.8) (2021-11-22)
 
-**Note:** Version bump only for package @logicflow/core
-
-
+**Note:** Version bump only for package chartflow-editor-core
 
 
 
-## [0.7.7](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.7.6...@logicflow/core@0.7.7) (2021-11-19)
+
+
+## [0.7.7](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.7.6...chartflow-editor-core@0.7.7) (2021-11-19)
 
 
 ### Features
@@ -938,7 +938,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.7.6](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.7.5...@logicflow/core@0.7.6) (2021-11-11)
+## [0.7.6](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.7.5...chartflow-editor-core@0.7.6) (2021-11-11)
 
 
 ### Bug Fixes
@@ -949,7 +949,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.7.5](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.7.4...@logicflow/core@0.7.5) (2021-11-08)
+## [0.7.5](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.7.4...chartflow-editor-core@0.7.5) (2021-11-08)
 
 
 ### Bug Fixes
@@ -960,7 +960,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.7.4](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.7.3...@logicflow/core@0.7.4) (2021-11-04)
+## [0.7.4](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.7.3...chartflow-editor-core@0.7.4) (2021-11-04)
 
 
 ### Bug Fixes
@@ -978,7 +978,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.7.3](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.7.2...@logicflow/core@0.7.3) (2021-11-03)
+## [0.7.3](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.7.2...chartflow-editor-core@0.7.3) (2021-11-03)
 
 
 ### Bug Fixes
@@ -996,23 +996,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.7.2](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.7.1...@logicflow/core@0.7.2) (2021-10-22)
+## [0.7.2](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.7.1...chartflow-editor-core@0.7.2) (2021-10-22)
 
-**Note:** Version bump only for package @logicflow/core
-
-
-
-
-
-## [0.7.1](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.7.1-alpha.0...@logicflow/core@0.7.1) (2021-10-21)
-
-**Note:** Version bump only for package @logicflow/core
+**Note:** Version bump only for package chartflow-editor-core
 
 
 
 
 
-## [0.7.1-alpha.0](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.6.16...@logicflow/core@0.7.1-alpha.0) (2021-10-21)
+## [0.7.1](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.7.1-alpha.0...chartflow-editor-core@0.7.1) (2021-10-21)
+
+**Note:** Version bump only for package chartflow-editor-core
+
+
+
+
+
+## [0.7.1-alpha.0](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.6.16...chartflow-editor-core@0.7.1-alpha.0) (2021-10-21)
 
 
 ### Bug Fixes
@@ -1034,7 +1034,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.6.16](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.6.13...@logicflow/core@0.6.16) (2021-09-04)
+## [0.6.16](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.6.13...chartflow-editor-core@0.6.16) (2021-09-04)
 
 
 ### Bug Fixes
@@ -1047,7 +1047,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.6.13](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.6.12...@logicflow/core@0.6.13) (2021-08-19)
+## [0.6.13](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.6.12...chartflow-editor-core@0.6.13) (2021-08-19)
 
 
 ### Bug Fixes
@@ -1068,7 +1068,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.6.12](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.6.5...@logicflow/core@0.6.12) (2021-08-17)
+## [0.6.12](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.6.5...chartflow-editor-core@0.6.12) (2021-08-17)
 
 
 ### Bug Fixes
@@ -1094,7 +1094,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.6.8](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.6.5...@logicflow/core@0.6.8) (2021-08-06)
+## [0.6.8](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.6.5...chartflow-editor-core@0.6.8) (2021-08-06)
 
 
 ### Bug Fixes
@@ -1117,7 +1117,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.6.5](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.6.4...@logicflow/core@0.6.5) (2021-07-29)
+## [0.6.5](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.6.4...chartflow-editor-core@0.6.5) (2021-07-29)
 
 
 ### Bug Fixes
@@ -1133,7 +1133,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.6.4](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.6.2...@logicflow/core@0.6.4) (2021-07-28)
+## [0.6.4](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.6.2...chartflow-editor-core@0.6.4) (2021-07-28)
 
 
 ### Bug Fixes
@@ -1149,7 +1149,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.6.3](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.6.2...@logicflow/core@0.6.3) (2021-07-28)
+## [0.6.3](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.6.2...chartflow-editor-core@0.6.3) (2021-07-28)
 
 
 ### Bug Fixes
@@ -1160,7 +1160,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.6.2](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.6.1...@logicflow/core@0.6.2) (2021-07-28)
+## [0.6.2](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.6.1...chartflow-editor-core@0.6.2) (2021-07-28)
 
 
 ### Bug Fixes
@@ -1172,7 +1172,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.6.1](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.6.0...@logicflow/core@0.6.1) (2021-07-19)
+## [0.6.1](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.6.0...chartflow-editor-core@0.6.1) (2021-07-19)
 
 
 ### Bug Fixes
@@ -1183,7 +1183,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [0.6.0](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.4.11...@logicflow/core@0.6.0) (2021-07-14)
+# [0.6.0](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.4.11...chartflow-editor-core@0.6.0) (2021-07-14)
 
 
 ### Bug Fixes
@@ -1207,7 +1207,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [0.5.0](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.4.11...@logicflow/core@0.5.0) (2021-06-18)
+# [0.5.0](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.4.11...chartflow-editor-core@0.5.0) (2021-06-18)
 
 
 ### Bug Fixes
@@ -1226,7 +1226,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.4.15](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.4.11...@logicflow/core@0.4.15) (2021-06-17)
+## [0.4.15](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.4.11...chartflow-editor-core@0.4.15) (2021-06-17)
 
 
 ### Bug Fixes
@@ -1243,42 +1243,31 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.4.14](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.4.11...@logicflow/core@0.4.14) (2021-06-16)
+## [0.4.14](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.4.11...chartflow-editor-core@0.4.14) (2021-06-16)
 
-**Note:** Version bump only for package @logicflow/core
-
-
-
-
-
-## [0.4.13](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.4.11...@logicflow/core@0.4.13) (2021-06-09)
-
-**Note:** Version bump only for package @logicflow/core
+**Note:** Version bump only for package chartflow-editor-core
 
 
 
 
 
-## [0.4.11](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.4.9...@logicflow/core@0.4.11) (2021-05-31)
+## [0.4.13](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.4.11...chartflow-editor-core@0.4.13) (2021-06-09)
 
-**Note:** Version bump only for package @logicflow/core
-
-
-
-
-
-## [0.4.9](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.4.7...@logicflow/core@0.4.9) (2021-05-28)
-
-
-### Bug Fixes
-
-* 修复拖动触发点击事件的问题 ([19fd122](https://github.com/towersxu/logicflow/commit/19fd1226f0d26ccfddbe0df405907412e95b4535))
+**Note:** Version bump only for package chartflow-editor-core
 
 
 
 
 
-## [0.4.8](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.4.7...@logicflow/core@0.4.8) (2021-05-25)
+## [0.4.11](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.4.9...chartflow-editor-core@0.4.11) (2021-05-31)
+
+**Note:** Version bump only for package chartflow-editor-core
+
+
+
+
+
+## [0.4.9](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.4.7...chartflow-editor-core@0.4.9) (2021-05-28)
 
 
 ### Bug Fixes
@@ -1289,7 +1278,18 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.4.7](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.4.4...@logicflow/core@0.4.7) (2021-05-24)
+## [0.4.8](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.4.7...chartflow-editor-core@0.4.8) (2021-05-25)
+
+
+### Bug Fixes
+
+* 修复拖动触发点击事件的问题 ([19fd122](https://github.com/towersxu/logicflow/commit/19fd1226f0d26ccfddbe0df405907412e95b4535))
+
+
+
+
+
+## [0.4.7](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.4.4...chartflow-editor-core@0.4.7) (2021-05-24)
 
 
 ### Features
@@ -1300,15 +1300,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.4.6](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.4.5...@logicflow/core@0.4.6) (2021-05-21)
+## [0.4.6](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.4.5...chartflow-editor-core@0.4.6) (2021-05-21)
 
-**Note:** Version bump only for package @logicflow/core
-
-
+**Note:** Version bump only for package chartflow-editor-core
 
 
 
-## [0.4.5](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.4.4...@logicflow/core@0.4.5) (2021-05-21)
+
+
+## [0.4.5](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.4.4...chartflow-editor-core@0.4.5) (2021-05-21)
 
 
 ### Features
@@ -1319,7 +1319,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.4.4](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.4.3...@logicflow/core@0.4.4) (2021-05-19)
+## [0.4.4](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.4.3...chartflow-editor-core@0.4.4) (2021-05-19)
 
 
 ### Bug Fixes
@@ -1335,7 +1335,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.4.3](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.4.2...@logicflow/core@0.4.3) (2021-05-16)
+## [0.4.3](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.4.2...chartflow-editor-core@0.4.3) (2021-05-16)
 
 
 ### Bug Fixes
@@ -1353,7 +1353,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.4.2](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.3.6...@logicflow/core@0.4.2) (2021-05-13)
+## [0.4.2](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.3.6...chartflow-editor-core@0.4.2) (2021-05-13)
 
 
 ### Bug Fixes
@@ -1378,7 +1378,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.4.1-alpha.1](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.4.0...@logicflow/core@0.4.1-alpha.1) (2021-05-12)
+## [0.4.1-alpha.1](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.4.0...chartflow-editor-core@0.4.1-alpha.1) (2021-05-12)
 
 
 ### Bug Fixes
@@ -1398,7 +1398,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.4.1-alpha.0](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.4.0...@logicflow/core@0.4.1-alpha.0) (2021-05-06)
+## [0.4.1-alpha.0](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.4.0...chartflow-editor-core@0.4.1-alpha.0) (2021-05-06)
 
 
 ### Features
@@ -1409,7 +1409,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [0.4.0](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.3.6...@logicflow/core@0.4.0) (2021-04-30)
+# [0.4.0](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.3.6...chartflow-editor-core@0.4.0) (2021-04-30)
 
 
 ### Bug Fixes
@@ -1427,7 +1427,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.3.6](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.3.4...@logicflow/core@0.3.6) (2021-04-29)
+## [0.3.6](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.3.4...chartflow-editor-core@0.3.6) (2021-04-29)
 
 
 ### Bug Fixes
@@ -1445,7 +1445,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.3.5](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.3.4...@logicflow/core@0.3.5) (2021-04-29)
+## [0.3.5](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.3.4...chartflow-editor-core@0.3.5) (2021-04-29)
 
 
 ### Bug Fixes
@@ -1462,15 +1462,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.3.4](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.3.3...@logicflow/core@0.3.4) (2021-04-22)
+## [0.3.4](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.3.3...chartflow-editor-core@0.3.4) (2021-04-22)
 
-**Note:** Version bump only for package @logicflow/core
-
-
+**Note:** Version bump only for package chartflow-editor-core
 
 
 
-## [0.3.3](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.3.2...@logicflow/core@0.3.3) (2021-04-21)
+
+
+## [0.3.3](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.3.2...chartflow-editor-core@0.3.3) (2021-04-21)
 
 
 ### Bug Fixes
@@ -1483,7 +1483,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.3.2](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.3.1...@logicflow/core@0.3.2) (2021-04-20)
+## [0.3.2](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.3.1...chartflow-editor-core@0.3.2) (2021-04-20)
 
 
 ### Bug Fixes
@@ -1500,7 +1500,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.3.1](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.3.0...@logicflow/core@0.3.1) (2021-04-19)
+## [0.3.1](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.3.0...chartflow-editor-core@0.3.1) (2021-04-19)
 
 
 ### Bug Fixes
@@ -1512,7 +1512,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [0.3.0](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.3.0-alpha.5...@logicflow/core@0.3.0) (2021-04-13)
+# [0.3.0](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.3.0-alpha.5...chartflow-editor-core@0.3.0) (2021-04-13)
 
 
 ### Bug Fixes
@@ -1538,7 +1538,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [0.3.0-alpha.5](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.3.0-alpha.4...@logicflow/core@0.3.0-alpha.5) (2021-03-30)
+# [0.3.0-alpha.5](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.3.0-alpha.4...chartflow-editor-core@0.3.0-alpha.5) (2021-03-30)
 
 
 ### Features
@@ -1549,7 +1549,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [0.3.0-alpha.4](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.3.0-alpha.2...@logicflow/core@0.3.0-alpha.4) (2021-03-24)
+# [0.3.0-alpha.4](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.3.0-alpha.2...chartflow-editor-core@0.3.0-alpha.4) (2021-03-24)
 
 
 ### Bug Fixes
@@ -1561,7 +1561,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [0.3.0-alpha.3](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.3.0-alpha.2...@logicflow/core@0.3.0-alpha.3) (2021-03-23)
+# [0.3.0-alpha.3](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.3.0-alpha.2...chartflow-editor-core@0.3.0-alpha.3) (2021-03-23)
 
 
 ### Bug Fixes
@@ -1572,7 +1572,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [0.3.0-alpha.2](https://github.com/towersxu/logicflow/compare/@logicflow/core@0.3.0-alpha.1...@logicflow/core@0.3.0-alpha.2) (2021-03-22)
+# [0.3.0-alpha.2](https://github.com/towersxu/logicflow/compare/chartflow-editor-core@0.3.0-alpha.1...chartflow-editor-core@0.3.0-alpha.2) (2021-03-22)
 
 
 ### Bug Fixes
@@ -1589,7 +1589,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [0.3.0-alpha.1](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.3.0-alpha.0...@logicflow/core@0.3.0-alpha.1) (2021-03-19)
+# [0.3.0-alpha.1](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.3.0-alpha.0...chartflow-editor-core@0.3.0-alpha.1) (2021-03-19)
 
 
 ### Bug Fixes
@@ -1606,7 +1606,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [0.3.0-alpha.0](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.2.9...@logicflow/core@0.3.0-alpha.0) (2021-03-18)
+# [0.3.0-alpha.0](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.2.9...chartflow-editor-core@0.3.0-alpha.0) (2021-03-18)
 
 
 ### Bug Fixes
@@ -1633,7 +1633,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.2.9](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.2.8...@logicflow/core@0.2.9) (2021-03-10)
+## [0.2.9](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.2.8...chartflow-editor-core@0.2.9) (2021-03-10)
 
 
 ### Bug Fixes
@@ -1645,7 +1645,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.2.8](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.2.7...@logicflow/core@0.2.8) (2021-03-05)
+## [0.2.8](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.2.7...chartflow-editor-core@0.2.8) (2021-03-05)
 
 
 ### Bug Fixes
@@ -1660,7 +1660,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.2.7](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.2.6...@logicflow/core@0.2.7) (2021-03-01)
+## [0.2.7](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.2.6...chartflow-editor-core@0.2.7) (2021-03-01)
 
 
 ### Bug Fixes
@@ -1672,7 +1672,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.2.6](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.2.4...@logicflow/core@0.2.6) (2021-03-01)
+## [0.2.6](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.2.4...chartflow-editor-core@0.2.6) (2021-03-01)
 
 
 ### Bug Fixes
@@ -1694,7 +1694,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.2.4](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.2.3...@logicflow/core@0.2.4) (2021-02-20)
+## [0.2.4](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.2.3...chartflow-editor-core@0.2.4) (2021-02-20)
 
 
 ### Bug Fixes
@@ -1705,7 +1705,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.2.3](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.2.2...@logicflow/core@0.2.3) (2021-02-19)
+## [0.2.3](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.2.2...chartflow-editor-core@0.2.3) (2021-02-19)
 
 
 ### Bug Fixes
@@ -1716,7 +1716,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.2.2](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.2.1...@logicflow/core@0.2.2) (2021-02-08)
+## [0.2.2](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.2.1...chartflow-editor-core@0.2.2) (2021-02-08)
 
 
 ### Bug Fixes
@@ -1727,7 +1727,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.2.1](https://github.com/didi/LogicFlow/compare/@logicflow/core@0.1.0...@logicflow/core@0.2.1) (2021-02-08)
+## [0.2.1](https://github.com/didi/LogicFlow/compare/chartflow-editor-core@0.1.0...chartflow-editor-core@0.2.1) (2021-02-08)
 
 
 ### Bug Fixes
@@ -1758,7 +1758,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [0.2.0](https://github.com/didichuxing/LogicFlow/compare/@logicflow/core@0.1.0...@logicflow/core@0.2.0) (2021-02-01)
+# [0.2.0](https://github.com/didichuxing/LogicFlow/compare/chartflow-editor-core@0.1.0...chartflow-editor-core@0.2.0) (2021-02-01)
 
 
 ### Bug Fixes

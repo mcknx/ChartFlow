@@ -1,4 +1,4 @@
-import { PolylineEdge, PolylineEdgeModel } from '@logicflow/core'
+import { PolylineEdge, PolylineEdgeModel } from 'chartflow-editor-core'
 import { getShapeStyleFuction, getTextStyleFunction } from '../getShapeStyleUtil'
 
  // 折线

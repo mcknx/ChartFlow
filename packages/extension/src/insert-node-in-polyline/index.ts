@@ -1,4 +1,4 @@
-import LogicFlow, { PolylineEdgeModel } from '@logicflow/core';
+import LogicFlow, { PolylineEdgeModel } from 'chartflow-editor-core';
 import { cloneDeep } from 'lodash-es';
 import { isNodeInSegment } from './edge';
 

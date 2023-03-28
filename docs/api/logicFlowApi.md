@@ -165,7 +165,7 @@ lf.register(config):void
 示例：
 
 ```js
-import { RectNode, RectNodeModel, h } from '@logicflow/core'
+import { RectNode, RectNodeModel, h } from 'chartflow-editor-core'
 // 提供节点
 class UserNode extends RectNode {
 }

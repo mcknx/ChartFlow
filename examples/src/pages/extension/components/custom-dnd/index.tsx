@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import LogicFlow from '@logicflow/core';
+import LogicFlow from 'chartflow-editor-core';
 import Dnd from './Dnd';
 
 const config = {

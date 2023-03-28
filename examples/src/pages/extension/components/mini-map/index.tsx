@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import LogicFlow from '@logicflow/core';
-import { MiniMap } from '@logicflow/extension';
+import LogicFlow from 'chartflow-editor-core';
+import { MiniMap } from 'chartflow-editor-extension';
 import ExampleHeader from '../../../../components/example-header/index';
 import { Switch } from 'antd';
 import './index.css';

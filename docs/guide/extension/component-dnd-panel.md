@@ -37,10 +37,10 @@ PatternItem：
 ### 使用示例
 
 ```js
-import LogicFlow from '@logicflow/core';
-import "@logicflow/core/dist/style/index.css";
-import { DndPanel, SelectionSelect } from '@logicflow/extension';
-import '@logicflow/extension/lib/style/index.css'
+import LogicFlow from 'chartflow-editor-core';
+import "chartflow-editor-core/dist/style/index.css";
+import { DndPanel, SelectionSelect } from 'chartflow-editor-extension';
+import 'chartflow-editor-extension/lib/style/index.css'
 
 const lf = new LogicFlow({
   container: document.querySelector('#graph'),

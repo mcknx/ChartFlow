@@ -55,7 +55,7 @@ BPMN： http://logic-flow.org/examples/#/extension/bpmn
 ### 整体架构图
 ![图片: lfjk](https://dpubstatic.udache.com/static/dpubimg/fg7q5j_5nG/lfjk.png)
 
-核心包 `@logicflow/core` 提供了流程图编辑器基础的能力，右边的 `@logicflow/extension` 是基于 `@logicflow/core` 的拓展性开发的插件。
+核心包 `chartflow-editor-core` 提供了流程图编辑器基础的能力，右边的 `chartflow-editor-extension` 是基于 `chartflow-editor-core` 的拓展性开发的插件。
 
 ### 流程图编辑器的设计方案
 主要介绍一下实现流程图编辑器重要的选型和方案设计。

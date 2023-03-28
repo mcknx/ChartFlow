@@ -1,4 +1,4 @@
-import { EllipseResize } from '@logicflow/extension';
+import { EllipseResize } from 'chartflow-editor-extension';
 class StartEventModel extends EllipseResize.model {
   // @ts-ignore
   constructor(data, graphModel) {

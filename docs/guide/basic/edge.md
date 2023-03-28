@@ -18,11 +18,11 @@
 
 ```js
 // 直线
-import { LineEdge, PolylineEdgeModel } from "@logicflow/core";
+import { LineEdge, PolylineEdgeModel } from "chartflow-editor-core";
 // 折线
-import { PolylineEdge, PolylineEdgeModel } from "@logicflow/core";
+import { PolylineEdge, PolylineEdgeModel } from "chartflow-editor-core";
 // 贝塞尔曲线
-import { BezierEdge, BezierEdgeModel } from "@logicflow/core";
+import { BezierEdge, BezierEdgeModel } from "chartflow-editor-core";
 ```
 
 ## 基于继承的自定义边
@@ -32,7 +32,7 @@ import { BezierEdge, BezierEdgeModel } from "@logicflow/core";
 只需要在自定义[edgeModel](/api/edgeModelApi.html)中样式类即可。
 
 ```js
-import { PolylineEdgeModel } from "@logicflow/core";
+import { PolylineEdgeModel } from "chartflow-editor-core";
 
 class SequenceModel extends PolylineEdgeModel {
   setAttributes() {
@@ -78,7 +78,7 @@ export default {
 ```js
 import React from "react";
 import ReactDOM from "react-dom";
-import { BaseEdgeModel, LineEdge, h } from "@logicflow/core";
+import { BaseEdgeModel, LineEdge, h } from "chartflow-editor-core";
 
 const DEFAULT_WIDTH = 48;
 const DEFAULT_HEIGHT = 32;

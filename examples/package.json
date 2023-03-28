@@ -5,8 +5,8 @@
   "dependencies": {
     "@ant-design/icons": "^4.3.0",
     "@babel/core": "7.12.3",
-    "@logicflow/core": "^1.2.3",
-    "@logicflow/extension": "^1.2.3",
+    "chartflow-editor-core": "^1.2.3",
+    "chartflow-editor-extension": "^1.2.3",
     "@pmmmwh/react-refresh-webpack-plugin": "0.4.2",
     "@svgr/webpack": "5.4.0",
     "@testing-library/jest-dom": "^5.11.4",

@@ -1,4 +1,4 @@
-import { PolylineEdge, PolylineEdgeModel, h } from '@logicflow/core';
+import { PolylineEdge, PolylineEdgeModel, h } from 'chartflow-editor-core';
 import searchMiddleIndex from './searchMiddleIndex';
 
 class CurvedEdge extends PolylineEdge {

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import LogicFlow from '@logicflow/core';
+import LogicFlow from 'chartflow-editor-core';
 import RegisteNode from './components/registerNode';
 import hoverPanel from './components/hoverPanel';
 import { themeApprove, data } from './config';

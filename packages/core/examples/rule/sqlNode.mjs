@@ -1,4 +1,4 @@
-// import { HtmlNode, HtmlNodeModel } from "@logicflow/core";
+// import { HtmlNode, HtmlNodeModel } from "chartflow-editor-core";
 
 class SqlNode extends HtmlNode {
   setHtml(rootEl) {

@@ -1,5 +1,5 @@
 import _ from 'lodash-es';
-import { h, PolygonNode, PolygonNodeModel } from '@logicflow/core';
+import { h, PolygonNode, PolygonNodeModel } from 'chartflow-editor-core';
 
 class NodeSelectionView extends PolygonNode {
   d = 10;

@@ -15,31 +15,31 @@ LogicFlow分为`core`包和`extension`包。由于LogicFlow本身会有一些预
 
 ```html
 <!--LogicFlow core包css-->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@logicflow/core/dist/style/index.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chartflow-editor-core/dist/style/index.css" />
 <!--LogicFlow extension包css-->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@logicflow/extension/lib/style/index.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chartflow-editor-extension/lib/style/index.css" />
 <!--LogicFlow core包js-->
-<script src="https://cdn.jsdelivr.net/npm/@logicflow/core/dist/logic-flow.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartflow-editor-core/dist/logic-flow.js"></script>
 <!--LogicFlow的插件支持单个引入，这里以菜单插件为例-->
-<script src="https://cdn.jsdelivr.net/npm/@logicflow/extension/lib/Menu.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartflow-editor-extension/lib/Menu.js"></script>
 
 ```
 
-LogicFlow所有的插件地址：[https://cdn.jsdelivr.net/npm/@logicflow/extension/lib/](https://cdn.jsdelivr.net/npm/@logicflow/extension/lib/)
+LogicFlow所有的插件地址：[https://cdn.jsdelivr.net/npm/chartflow-editor-extension/lib/](https://cdn.jsdelivr.net/npm/chartflow-editor-extension/lib/)
 
 ### 使用npm引入
 
 ```shell
-npm install @logicflow/core
-npm install @logicflow/extension
+npm install chartflow-editor-core
+npm install chartflow-editor-extension
 ```
 
 ## 绘制一个简单的流程图
 
 
 ```js
-import LogicFlow from '@logicflow/core'
-import "@logicflow/core/dist/style/index.css";
+import LogicFlow from 'chartflow-editor-core'
+import "chartflow-editor-core/dist/style/index.css";
 
 const lf = new LogicFlow({
   container: document.querySelector("#app"),
@@ -96,8 +96,8 @@ LogicFlow支持初始化不传容器宽高参数，这个时候默认会使用co
 </template>
 
 <script>
-import LogicFlow from "@logicflow/core";
-import "@logicflow/core/dist/style/index.css";
+import LogicFlow from "chartflow-editor-core";
+import "chartflow-editor-core/dist/style/index.css";
 
 export default {
   mounted() {
@@ -122,8 +122,8 @@ export default {
 
 ```js
 
-import LogicFlow from "@logicflow/core";
-import "@logicflow/core/dist/style/index.css";
+import LogicFlow from "chartflow-editor-core";
+import "chartflow-editor-core/dist/style/index.css";
 import { useEffect, useRef } from "react";
 
 export default function App() {

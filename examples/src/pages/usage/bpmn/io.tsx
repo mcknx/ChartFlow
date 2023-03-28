@@ -1,5 +1,5 @@
 import React from 'react';
-import LogicFlow from '@logicflow/core';
+import LogicFlow from 'chartflow-editor-core';
 
 const downloadImg = require('./img/download.png').default;
 const photo = require('./img/img.png').default;

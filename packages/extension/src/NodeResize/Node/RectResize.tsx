@@ -1,4 +1,4 @@
-import { BaseNodeModel, GraphModel, h, RectNode, RectNodeModel } from '@logicflow/core';
+import { BaseNodeModel, GraphModel, h, RectNode, RectNodeModel } from 'chartflow-editor-core';
 import ControlGroup from '../Control/ControlGroup';
 
 interface IProps {

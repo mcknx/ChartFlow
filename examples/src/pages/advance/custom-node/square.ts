@@ -1,4 +1,4 @@
-import { h, RectNode, RectNodeModel } from '@logicflow/core';
+import { h, RectNode, RectNodeModel } from 'chartflow-editor-core';
 
 class Model extends RectNodeModel {
   setAttributes() {

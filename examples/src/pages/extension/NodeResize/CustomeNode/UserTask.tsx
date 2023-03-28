@@ -1,6 +1,6 @@
 
-import { h } from '@logicflow/core';
-import { RectResize } from '@logicflow/extension';
+import { h } from 'chartflow-editor-core';
+import { RectResize } from 'chartflow-editor-extension';
 
 class UserTaskModel extends RectResize.model {
   setAttributes() {

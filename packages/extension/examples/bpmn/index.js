@@ -120,7 +120,7 @@ window.onload = function () {
   lf.extension.control.addItem({
     iconClass: 'custom-minimap',
     title: '',
-    text: '导航',
+    text: 'navigation',
     onMouseEnter: (lf, ev) => {
       const position = lf.getPointByClient(ev.x, ev.y);
       lf.extension.miniMap.show(position.domOverlayPosition.x - 120, position.domOverlayPosition.y + 35);

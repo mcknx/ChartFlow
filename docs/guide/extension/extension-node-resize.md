@@ -6,7 +6,7 @@ LogicFlow在extension包中提供了`RectResize`、`EllipseResize`、`DiamonResi
 以我们需要一个可以缩放的矩形为例，在以前我们不支持节点缩放时，我们自定义节点方式为：
 ```js
 // 不可以缩放的节点
-import { RectNode, RectNodeModel } from '@logicflow/core'
+import { RectNode, RectNodeModel } from 'chartflow-editor-core'
 class CustomNode extends RectNode {}
 class CustomNodeModel extends RectNodeModel {}
 export default {
@@ -19,7 +19,7 @@ export default {
 如果我们期望自定义的节点可以缩放，那么则改成：
 ```js
 // 支持缩放的节点
-import { RectResize } from '@logicflow/extension'
+import { RectResize } from 'chartflow-editor-extension'
 class CustomNode extends RectResize.view {}
 class CustomNodeModel extends RectResize.model {}
 export default {
@@ -48,7 +48,7 @@ class ResizableRectModel extends RectResize.model {
 在自定义节点中提到过，对于样式属性比较复杂的节点，我们可以重写`view`中的`getShape`方法来实现自定义节点真实渲染的外观。但是由于自定义节点需要在节点外观上填加用于缩放的调整点，所以对于自定义可缩放节点的view，我们需要重写`getResizeShape`, 而不是`getShape`。
 
 ```js
-import { RectResize } from '@logicflow/extension';
+import { RectResize } from 'chartflow-editor-extension';
 
 class ResizableRectModel extends RectResize.model {
   initNodeData(data) {

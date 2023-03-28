@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import LogicFlow, { EdgeType } from '@logicflow/core';
-import { CurvedEdge, CurvedEdgeModel } from '@logicflow/extension';
+import LogicFlow, { EdgeType } from 'chartflow-editor-core';
+import { CurvedEdge, CurvedEdgeModel } from 'chartflow-editor-extension';
 import ExampleHeader from '../../../components/example-header';
 
 type EdgeTypeUn = EdgeType | 'curved-edge';

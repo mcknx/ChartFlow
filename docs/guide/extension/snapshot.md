@@ -7,8 +7,8 @@
 **第一步**: 注册插件
 
 ```ts
-import LogicFlow from '@logicflow/core';
-import { Snapshot } from '@logicflow/extension';
+import LogicFlow from 'chartflow-editor-core';
+import { Snapshot } from 'chartflow-editor-extension';
 
 LogicFlow.use(Snapshot);
 ```
@@ -36,11 +36,11 @@ document.getElementById('download').addEventListener('click', () => {
 
 1.0.7 新增
 
-LogicFlow默认生成的数据是json格式，可能会有一些流程引擎需要前端提供xml格式数据。`@logicflow/extension`提供了`lfJson2Xml`和`lfXml2Json`两个插件，用于将json和xml进行互相转换。
+LogicFlow默认生成的数据是json格式，可能会有一些流程引擎需要前端提供xml格式数据。`chartflow-editor-extension`提供了`lfJson2Xml`和`lfXml2Json`两个插件，用于将json和xml进行互相转换。
 
 ```ts
-import LogicFlow from '@logicflow/core';
-import { lfJson2Xml, lfXml2Json} from '@logicflow/extension';
+import LogicFlow from 'chartflow-editor-core';
+import { lfJson2Xml, lfXml2Json} from 'chartflow-editor-extension';
 
 const lf = new LogicFlow({
   // ...

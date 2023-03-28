@@ -1,4 +1,4 @@
-import { BezierEdge, BezierEdgeModel } from '@logicflow/core'
+import { BezierEdge, BezierEdgeModel } from 'chartflow-editor-core'
 import { getShapeStyleFuction, getTextStyleFunction } from '../getShapeStyleUtil'
 
 // 贝塞尔曲线

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import LogicFlow from '@logicflow/core';
+import LogicFlow from 'chartflow-editor-core';
 import ExampleHeader from '../../../components/example-header';
 import { createListener, ListenerType } from './listener';
 

@@ -8,8 +8,8 @@ import LogicFlow, {
   RectNodeModel,
   PolygonNode,
   PolygonNodeModel,
-} from '@logicflow/core';
-import GraphModel from "@logicflow/core/types/model/GraphModel";
+} from 'chartflow-editor-core';
+import GraphModel from "chartflow-editor-core/types/model/GraphModel";
 import { nodeProperty } from '../type';
 
 export default function RegisteNode(lf: LogicFlow) {
