@@ -24,15 +24,15 @@ class IntermediateEventModel extends CircleNodeModel {
   setAttributes(): void {
     this.r = 18;
   }
-  getConnectedTargetRules() {
-    const rules = super.getConnectedSourceRules();
-    const notAsSource = {
-      message: '起始节点不能作为边的终点',
-      validate: () => false,
-    };
-    rules.push(notAsSource);
-    return rules;
-  }
+  // getConnectedTargetRules() {
+  //   const rules = super.getConnectedSourceRules();
+  //   const notAsSource = {
+  //     message: '起始节点不能作为边的终点',
+  //     validate: () => false,
+  //   };
+  //   rules.push(notAsSource);
+  //   return rules;
+  // }
 }
 
 class IntermediateEventView extends CircleNode {

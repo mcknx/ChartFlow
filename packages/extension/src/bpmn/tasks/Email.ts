@@ -1,8 +1,8 @@
 import { h, RectNode, RectNodeModel } from 'chartflow-editor-core';
 import { getBpmnId } from '../getBpmnId';
 
-class TaskModel extends RectNodeModel {
-  static extendKey = 'TaskModel';
+class EmailModel extends RectNodeModel {
+  static extendKey = 'EmailModel';
   constructor(data, graphModel) {
     if (!data.id) {
       data.id = `Activity_${getBpmnId()}`;
@@ -11,8 +11,8 @@ class TaskModel extends RectNodeModel {
   }
 }
 
-class TaskView extends RectNode {
-  static extendKey = 'TaskNode';
+class EmailView extends RectNode {
+  static extendKey = 'EmailNode';
   getLabelShape() {
     const { model } = this.props;
     const { x, y, width, height } = model;
@@ -24,18 +24,12 @@ class TaskView extends RectNode {
         y: y - height / 2 + 5,
         width: 25,
         height: 25,
-        viewBox: '0 0 24 24',
+        viewBox: '0 0 1024 1024',
       },
-      [
-        h('path', {
-          fill: 'none',
-          d: 'M0 0h24v24H0z',
-        }),
-        h('path', {
-          fill: style.stroke,
-          d: 'M2 4v16h20V4H2zm18 14H4V6h16v12z',
-        }),
-      ],
+      h('path', {
+        fill: style.stroke,
+        d: 'M928 160H96c-17.7 0-32 14.3-32 32v640c0 17.7 14.3 32 32 32h832c17.7 0 32-14.3 32-32V192c0-17.7-14.3-32-32-32zm-40 110.8V792H136V270.8l-27.6-21.5 39.3-50.5 42.8 33.3h643.1l42.8-33.3 39.3 50.5-27.7 21.5zM833.6 232L512 482 190.4 232l-42.8-33.3-39.3 50.5 27.6 21.5 341.6 265.6a55.99 55.99 0 0 0 68.7 0L888 270.8l27.6-21.5-39.3-50.5-42.7 33.2z',
+      }),
     );
   }
   getShape() {
@@ -58,11 +52,11 @@ class TaskView extends RectNode {
   }
 }
 
-const Task = {
-  type: 'bpmn:task',
-  view: TaskView,
-  model: TaskModel,
+const Email = {
+  type: 'bpmn:messageEventDefinition',
+  view: EmailView,
+  model: EmailModel,
 };
 
-export { TaskView, TaskModel };
-export default Task;
+export { EmailView, EmailModel };
+export default Email;

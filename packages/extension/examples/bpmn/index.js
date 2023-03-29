@@ -118,17 +118,25 @@ window.onload = function () {
     type: 'bpmn:task',
     text: 'Task',
     label: 'Task',
-    icon: 'data:image/svg+xml;base64,PHN2ZyBzdHJva2U9ImN1cnJlbnRDb2xvciIgZmlsbD0iIzE4N0RGRiIgc3Ryb2tlLXdpZHRoPSIwIiB2aWV3Qm94PSIwIDAgMjQgMjQiIGhlaWdodD0iMWVtIiB3aWR0aD0iMWVtIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0yMCAzSDRjLTEuMTAzIDAtMiAuODk3LTIgMnYxNGMwIDEuMTAzLjg5NyAyIDIgMmgxNmMxLjEwMyAwIDItLjg5NyAyLTJWNWMwLTEuMTAzLS44OTctMi0yLTJ6TTQgMTlWNWgxNmwuMDAxIDE0SDR6Ij48L3BhdGg+PC9zdmc+',
+    icon: 'data:image/svg+xml;base64,PHN2ZyBzdHJva2U9ImN1cnJlbnRDb2xvciIgZmlsbD0iIzE4N0RGRiIgc3Ryb2tlLXdpZHRoPSIwIiB2aWV3Qm94PSIwIDAgMjQgMjQiIGhlaWdodD0iMjUiIHdpZHRoPSIyNSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSJub25lIiBkPSJNMCAwaDI0djI0SDB6Ij48L3BhdGg+PHBhdGggZD0iTTIgNHYxNmgyMFY0SDJ6bTE4IDE0SDRWNmgxNnYxMnoiPjwvcGF0aD48L3N2Zz4=',
   };
+  const emailConfig = {
+    type: 'bpmn:messageEventDefinition',
+    text: 'Email Step',
+    label: 'Email',
+    icon: 'data:image/svg+xml;base64,PHN2ZyBzdHJva2U9ImN1cnJlbnRDb2xvciIgZmlsbD0iIzE4N0RGRiIgc3Ryb2tlLXdpZHRoPSIwIiB2aWV3Qm94PSIwIDAgMTAyNCAxMDI0IiBoZWlnaHQ9IjI1IiB3aWR0aD0iMjUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTkyOCAxNjBIOTZjLTE3LjcgMC0zMiAxNC4zLTMyIDMydjY0MGMwIDE3LjcgMTQuMyAzMiAzMiAzMmg4MzJjMTcuNyAwIDMyLTE0LjMgMzItMzJWMTkyYzAtMTcuNy0xNC4zLTMyLTMyLTMyem0tNDAgMTEwLjhWNzkySDEzNlYyNzAuOGwtMjcuNi0yMS41IDM5LjMtNTAuNSA0Mi44IDMzLjNoNjQzLjFsNDIuOC0zMy4zIDM5LjMgNTAuNS0yNy43IDIxLjV6TTgzMy42IDIzMkw1MTIgNDgyIDE5MC40IDIzMmwtNDIuOC0zMy4zLTM5LjMgNTAuNSAyNy42IDIxLjUgMzQxLjYgMjY1LjZhNTUuOTkgNTUuOTkgMCAwIDAgNjguNyAwTDg4OCAyNzAuOGwyNy42LTIxLjUtMzkuMy01MC41LTQyLjcgMzMuMnoiPjwvcGF0aD48L3N2Zz4=',
+  };
+
   lf.extension.dndPanel.setPatternItems([
     selectionConfig,
     startConfig,
     intermediateConfig,
     endConfig,
     taskConfig,
+    emailConfig,
+    exclusiveGatewayConfig,
     userConfig,
     serviceConfig,
-    exclusiveGatewayConfig,
     groupConfig,
   ]);
   lf.extension.control.addItem({

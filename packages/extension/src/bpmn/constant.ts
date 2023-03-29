@@ -33,6 +33,11 @@ export const TaskConfig = {
   height: 80,
 };
 
+export const EmailConfig = {
+  width: 40,
+  height: 40,
+};
+
 export const theme = {
   rect: {
     radius: 5,

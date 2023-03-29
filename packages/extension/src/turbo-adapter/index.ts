@@ -7,6 +7,7 @@ const TurboType = {
   EXCLUSIVE_GATEWAY: 6,
   INTERMEDIATE_THROW_EVENT: 7,
   TASK: 8,
+  EMAIL: 9,
 };
 
 const TurboTypeMap = {
@@ -17,6 +18,7 @@ const TurboTypeMap = {
   6: 'bpmn:exclusiveGateway',
   7: 'bpmn:intermediateThrowEvent',
   8: 'bpmn:task',
+  9: 'bpmn:messageEventDefinition',
 };
 
 // 转换Turbo识别的类型
@@ -38,6 +40,8 @@ function getTurboType(type) {
       return TurboType.EXCLUSIVE_GATEWAY;
     case 'bpmn:task':
       return TurboType.TASK;
+    case 'bpmn:messageEventDefinition':
+      return TurboType.EMAIL;
     default:
       return type;
   }
