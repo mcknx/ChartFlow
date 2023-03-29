@@ -48,6 +48,11 @@ export const UIStepConfig = {
   height: 40,
 };
 
+export const SystemStepConfig = {
+  width: 40,
+  height: 40,
+};
+
 export const theme = {
   rect: {
     radius: 5,

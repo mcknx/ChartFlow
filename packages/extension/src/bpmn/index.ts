@@ -10,6 +10,7 @@ import Task, { TaskView, TaskModel } from './tasks/Task';
 import EmailEvent, { EmailEventView, EmailEventModel } from './events/EmailEvent';
 import TimeStepEvent, { TimeStepEventView, TimeStepEventModel } from './events/TimeStepEvent';
 import UIStepEvent, { UIStepEventView, UIStepEventModel } from './events/UIStepEvent';
+import SystemStepEvent, { SystemStepEventView, SystemStepEventModel } from './events/SystemStepEvent';
 import { theme } from './constant';
 
 // todo: name
@@ -27,6 +28,7 @@ class BpmnElement {
     lf.register(EmailEvent);
     lf.register(TimeStepEvent);
     lf.register(UIStepEvent);
+    lf.register(SystemStepEvent);
     // 支持自定义bpmn元素的边
     if (!lf.options.customBpmnEdge) {
       lf.register(SequenceFlow);
@@ -57,4 +59,5 @@ export {
   EmailEventModel,
   TimeStepEventView, TimeStepEventModel,
   UIStepEventView, UIStepEventModel,
+  SystemStepEventView, SystemStepEventModel,
 };

@@ -10,6 +10,7 @@ const TurboType = {
   EMAIL: 9,
   TIME: 10,
   UI: 11,
+  SYSTEM: 12,
 };
 
 const TurboTypeMap = {
@@ -23,6 +24,7 @@ const TurboTypeMap = {
   9: 'bpmn:messageEventDefinition',
   10: 'bpmn:timerEventDefinition',
   11: 'bpmn:scriptTask',
+  12: 'bpmn:serviceTask',
 };
 
 // 转换Turbo识别的类型
@@ -38,8 +40,8 @@ function getTurboType(type) {
       return TurboType.END_EVENT;
     case 'bpmn:userTask':
       return TurboType.USER_TASK;
-    // case 'bpmn:serviceTask':
-    //   return TurboType.SERVICE_TASK;
+    case 'bpmn:serviceTask':
+      return TurboType.SYSTEM;
     case 'bpmn:exclusiveGateway':
       return TurboType.EXCLUSIVE_GATEWAY;
     case 'bpmn:task':

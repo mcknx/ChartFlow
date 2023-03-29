@@ -13,6 +13,7 @@ import {
   EmailConfig,
   TimeStepConfig,
   UIStepConfig,
+  SystemStepConfig,
 } from '../bpmn/constant';
 
 type NodeConfig = {
@@ -61,12 +62,13 @@ enum BpmnElements {
   END = 'bpmn:endEvent',
   GATEWAY = 'bpmn:exclusiveGateway',
   USER = 'bpmn:userTask',
-  SYSTEM = 'bpmn:serviceTask',
+  SERVICE = 'bpmn:serviceTask',
   FLOW = 'bpmn:sequenceFlow',
   TASK = 'bpmn:task',
   EMAIL = 'bpmn:messageEventDefinition',
   TIME = 'bpmn:timerEventDefinition',
   UI = 'bpmn:scriptTask',
+  SYSTEM = 'bpmn:serviceTask',
 }
 
 const defaultAttrs = ['-name', '-id', 'bpmn:incoming', 'bpmn:outgoing', '-sourceRef', '-targetRef'];
