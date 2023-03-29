@@ -113,15 +113,22 @@ window.onload = function () {
         lf.extension.selectionSelect.closeSelectionSelect();
       });
     }
-  }
+  };
+  const taskConfig = {
+    type: 'bpmn:task',
+    text: 'Task',
+    label: 'Task',
+    icon: 'data:image/svg+xml;base64,PHN2ZyBzdHJva2U9ImN1cnJlbnRDb2xvciIgZmlsbD0iIzE4N0RGRiIgc3Ryb2tlLXdpZHRoPSIwIiB2aWV3Qm94PSIwIDAgMjQgMjQiIGhlaWdodD0iMWVtIiB3aWR0aD0iMWVtIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0yMCAzSDRjLTEuMTAzIDAtMiAuODk3LTIgMnYxNGMwIDEuMTAzLjg5NyAyIDIgMmgxNmMxLjEwMyAwIDItLjg5NyAyLTJWNWMwLTEuMTAzLS44OTctMi0yLTJ6TTQgMTlWNWgxNmwuMDAxIDE0SDR6Ij48L3BhdGg+PC9zdmc+',
+  };
   lf.extension.dndPanel.setPatternItems([
     selectionConfig,
     startConfig,
     intermediateConfig,
+    endConfig,
+    taskConfig,
     userConfig,
     serviceConfig,
     exclusiveGatewayConfig,
-    endConfig,
     groupConfig,
   ]);
   lf.extension.control.addItem({

@@ -9,6 +9,7 @@ import {
   EndEventConfig,
   ServiceTaskConfig,
   UserTaskConfig,
+  TaskConfig,
 } from '../bpmn/constant';
 
 type NodeConfig = {
@@ -59,6 +60,7 @@ enum BpmnElements {
   USER = 'bpmn:userTask',
   SYSTEM = 'bpmn:serviceTask',
   FLOW = 'bpmn:sequenceFlow',
+  TASK = 'bpmn:task',
 }
 
 const defaultAttrs = ['-name', '-id', 'bpmn:incoming', 'bpmn:outgoing', '-sourceRef', '-targetRef'];
@@ -485,6 +487,10 @@ BpmnAdapter.shapeConfigMap.set(BpmnElements.SYSTEM, {
 BpmnAdapter.shapeConfigMap.set(BpmnElements.USER, {
   width: UserTaskConfig.width,
   height: UserTaskConfig.height,
+});
+BpmnAdapter.shapeConfigMap.set(BpmnElements.TASK, {
+  width: TaskConfig.width,
+  height: TaskConfig.height,
 });
 
 const BpmnXmlAdapter = {

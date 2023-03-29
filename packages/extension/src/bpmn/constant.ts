@@ -28,6 +28,11 @@ export const UserTaskConfig = {
   height: 80,
 };
 
+export const TaskConfig = {
+  width: 100,
+  height: 80,
+};
+
 export const theme = {
   rect: {
     radius: 5,
