@@ -5,6 +5,7 @@ import { lfXml2Json } from './xml2json';
 import {
   ExclusiveGatewayConfig,
   StartEventConfig,
+  IntermediateEventConfig,
   EndEventConfig,
   ServiceTaskConfig,
   UserTaskConfig,
@@ -52,6 +53,7 @@ type EdgeConfig = {
 
 enum BpmnElements {
   START = 'bpmn:startEvent',
+  INTERMEDIATE = 'bpmn:intermediateThrowEvent',
   END = 'bpmn:endEvent',
   GATEWAY = 'bpmn:exclusiveGateway',
   USER = 'bpmn:userTask',
@@ -463,6 +465,10 @@ const BpmnAdapter = {
 BpmnAdapter.shapeConfigMap.set(BpmnElements.START, {
   width: StartEventConfig.width,
   height: StartEventConfig.height,
+});
+BpmnAdapter.shapeConfigMap.set(BpmnElements.INTERMEDIATE, {
+  width: IntermediateEventConfig.width,
+  height: IntermediateEventConfig.height,
 });
 BpmnAdapter.shapeConfigMap.set(BpmnElements.END, {
   width: EndEventConfig.width,

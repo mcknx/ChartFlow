@@ -1,5 +1,6 @@
 // import LogicFlow from 'chartflow-editor-core';
 import StartEvent, { StartEventModel, StartEventView } from './events/StartEvent';
+import IntermediateEvent, { IntermediateEventModel, IntermediateEventView } from './events/IntermediateEvent';
 import EndEvent, { EndEventView, EndEventModel } from './events/EndEvent';
 import ExclusiveGateway, { ExclusiveGatewayView, ExclusiveGatewayModel } from './gateways/ExclusiveGateway';
 import UserTask, { UserTaskView, UserTaskModel } from './tasks/UserTask';
@@ -13,6 +14,7 @@ class BpmnElement {
   constructor({ lf }) {
     lf.setTheme(theme);
     lf.register(StartEvent);
+    lf.register(IntermediateEvent);
     lf.register(EndEvent);
     lf.register(ExclusiveGateway);
     lf.register(UserTask);
@@ -29,6 +31,8 @@ export {
   BpmnElement,
   StartEventModel,
   StartEventView,
+  IntermediateEventModel,
+  IntermediateEventView,
   EndEventView,
   EndEventModel,
   ExclusiveGatewayView,

@@ -34,7 +34,7 @@ export default function PropertyPanel(nodeData, updateproperty, hidePropertyPane
   }
   return (
     <div>
-      <h2>属性面板</h2>
+      <h2>properties panel</h2>
       <Form
         key={nodeData.id}
         layout="inline"

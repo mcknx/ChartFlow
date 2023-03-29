@@ -3,6 +3,11 @@ export const StartEventConfig = {
   height: 40,
 };
 
+export const IntermediateEventConfig = {
+  width: 40,
+  height: 40,
+};
+
 export const EndEventConfig = {
   width: 40,
   height: 40,

@@ -5,6 +5,7 @@ const TurboType = {
   USER_TASK: 4,
   // SERVICE_TASK = 5, 暂不支持
   EXCLUSIVE_GATEWAY: 6,
+  INTERMEDIATE_THROW_EVENT: 7,
 };
 
 const TurboTypeMap = {
@@ -13,6 +14,7 @@ const TurboTypeMap = {
   3: 'bpmn:endEvent',
   4: 'bpmn:userTask',
   6: 'bpmn:exclusiveGateway',
+  7: 'bpmn:intermediateThrowEvent',
 };
 
 // 转换Turbo识别的类型
@@ -22,6 +24,8 @@ function getTurboType(type) {
       return TurboType.SEQUENCE_FLOW;
     case 'bpmn:startEvent':
       return TurboType.START_EVENT;
+    case 'bpmn:intermediateThrowEvent':
+      return TurboType.INTERMEDIATE_THROW_EVENT;
     case 'bpmn:endEvent':
       return TurboType.END_EVENT;
     case 'bpmn:userTask':
