@@ -43,6 +43,11 @@ export const TimeStepConfig = {
   height: 40,
 };
 
+export const UIStepConfig = {
+  width: 40,
+  height: 40,
+};
+
 export const theme = {
   rect: {
     radius: 5,

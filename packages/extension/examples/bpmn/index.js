@@ -134,6 +134,12 @@ window.onload = function () {
     label: 'Time Step',
     icon: 'data:image/svg+xml;base64,PHN2ZyBzdHJva2U9ImN1cnJlbnRDb2xvciIgZmlsbD0iIzE4N0RGRiIgc3Ryb2tlLXdpZHRoPSIwIiB2aWV3Qm94PSIwIDAgMTAyNCAxMDI0IiBoZWlnaHQ9IjI1IiB3aWR0aD0iMjUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTUxMiA2NEMyNjQuNiA2NCA2NCAyNjQuNiA2NCA1MTJzMjAwLjYgNDQ4IDQ0OCA0NDggNDQ4LTIwMC42IDQ0OC00NDhTNzU5LjQgNjQgNTEyIDY0em0wIDgyMGMtMjA1LjQgMC0zNzItMTY2LjYtMzcyLTM3MnMxNjYuNi0zNzIgMzcyLTM3MiAzNzIgMTY2LjYgMzcyIDM3Mi0xNjYuNiAzNzItMzcyIDM3MnoiPjwvcGF0aD48cGF0aCBkPSJNNjg2LjcgNjM4LjZMNTQ0LjEgNTM1LjVWMjg4YzAtNC40LTMuNi04LTgtOEg0ODhjLTQuNCAwLTggMy42LTggOHYyNzUuNGMwIDIuNiAxLjIgNSAzLjMgNi41bDE2NS40IDEyMC42YzMuNiAyLjYgOC42IDEuOCAxMS4yLTEuN2wyOC42LTM5YzIuNi0zLjcgMS44LTguNy0xLjgtMTEuMnoiPjwvcGF0aD48L3N2Zz4=',
   };
+  const uiConfig = {
+    type: 'bpmn:scriptTask',
+    text: 'User Interface Step',
+    label: 'User Interface Step',
+    icon: 'data:image/svg+xml;base64,PHN2ZyBzdHJva2U9ImN1cnJlbnRDb2xvciIgZmlsbD0iIzE4N0RGRiIgc3Ryb2tlLXdpZHRoPSIwIiB2aWV3Qm94PSIwIDAgMTYgMTYiIGhlaWdodD0iMjUiIHdpZHRoPSIyNSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTUgNi41bC0uNDctLjVIN1YxLjQ3TDYuNTMgMUgxLjQ3TDEgMS40N3Y4LjA2bC40Ny40N0g0djQuNTNsLjQ3LjQ3aDEwLjA2bC40Ny0uNDdWNi41ek0yIDlWM2g0djZIMnptMTIgNUg1di00aDEuNTNMNyA5LjUzVjguMDEzaDdWMTR6Ij48L3BhdGg+PC9zdmc+',
+  };
 
   lf.extension.dndPanel.setPatternItems([
     selectionConfig,
@@ -144,6 +150,7 @@ window.onload = function () {
     exclusiveGatewayConfig,
     emailConfig,
     timerConfig,
+    uiConfig,
     // userConfig,
     // serviceConfig,
     // groupConfig,
