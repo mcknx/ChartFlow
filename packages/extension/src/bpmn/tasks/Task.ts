@@ -38,24 +38,24 @@ class TaskView extends RectNode {
       ],
     );
   }
-  getShape() {
-    const { model } = this.props;
-    const { x, y, width, height, radius } = model;
-    const style = model.getNodeStyle();
-    // todo: 将basic-shape对外暴露，在这里可以直接用。现在纯手写有点麻烦。
-    return h('g', {}, [
-      h('rect', {
-        ...style,
-        x: x - width / 2,
-        y: y - height / 2,
-        rx: radius,
-        ry: radius,
-        width,
-        height,
-      }),
-      this.getLabelShape(),
-    ]);
-  }
+  // getShape() {
+  //   const { model } = this.props;
+  //   const { x, y, width, height, radius } = model;
+  //   const style = model.getNodeStyle();
+  //   // todo: 将basic-shape对外暴露，在这里可以直接用。现在纯手写有点麻烦。
+  //   return h('g', {}, [
+  //     h('rect', {
+  //       ...style,
+  //       x: x - width / 2,
+  //       y: y - height / 2,
+  //       rx: radius,
+  //       ry: radius,
+  //       width,
+  //       height,
+  //     }),
+  //     this.getLabelShape(),
+  //   ]);
+  // }
 }
 
 const Task = {

@@ -38,6 +38,11 @@ export const EmailConfig = {
   height: 40,
 };
 
+export const TimeStepConfig = {
+  width: 40,
+  height: 40,
+};
+
 export const theme = {
   rect: {
     radius: 5,

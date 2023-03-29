@@ -11,6 +11,7 @@ import {
   UserTaskConfig,
   TaskConfig,
   EmailConfig,
+  TimeStepConfig,
 } from '../bpmn/constant';
 
 type NodeConfig = {
@@ -63,6 +64,7 @@ enum BpmnElements {
   FLOW = 'bpmn:sequenceFlow',
   TASK = 'bpmn:task',
   EMAIL = 'bpmn:messageEventDefinition',
+  TIME = 'bpmn:timerEventDefinition',
 }
 
 const defaultAttrs = ['-name', '-id', 'bpmn:incoming', 'bpmn:outgoing', '-sourceRef', '-targetRef'];
@@ -497,6 +499,10 @@ BpmnAdapter.shapeConfigMap.set(BpmnElements.TASK, {
 BpmnAdapter.shapeConfigMap.set(BpmnElements.EMAIL, {
   width: EmailConfig.width,
   height: EmailConfig.height,
+});
+BpmnAdapter.shapeConfigMap.set(BpmnElements.TIME, {
+  width: TimeStepConfig.width,
+  height: TimeStepConfig.height,
 });
 
 const BpmnXmlAdapter = {

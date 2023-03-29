@@ -8,6 +8,7 @@ const TurboType = {
   INTERMEDIATE_THROW_EVENT: 7,
   TASK: 8,
   EMAIL: 9,
+  TIME: 10,
 };
 
 const TurboTypeMap = {
@@ -19,6 +20,7 @@ const TurboTypeMap = {
   7: 'bpmn:intermediateThrowEvent',
   8: 'bpmn:task',
   9: 'bpmn:messageEventDefinition',
+  10: 'bpmn:timerEventDefinition',
 };
 
 // 转换Turbo识别的类型
@@ -42,6 +44,8 @@ function getTurboType(type) {
       return TurboType.TASK;
     case 'bpmn:messageEventDefinition':
       return TurboType.EMAIL;
+    case 'bpmn:timerEventDefinition':
+      return TurboType.TIME;
     default:
       return type;
   }

@@ -8,6 +8,7 @@ import ServiceTask, { ServiceTaskView, ServiceTaskModel } from './tasks/ServiceT
 import SequenceFlow, { SequenceFlowView, SequenceFlowModel } from './flow/SequenceFlow';
 import Task, { TaskView, TaskModel } from './tasks/Task';
 import EmailEvent, { EmailEventView, EmailEventModel } from './events/EmailEvent';
+import TimeStepEvent, { TimeStepEventView, TimeStepEventModel } from './events/TimeStepEvent';
 import { theme } from './constant';
 
 // todo: name
@@ -23,6 +24,7 @@ class BpmnElement {
     lf.register(ServiceTask);
     lf.register(Task);
     lf.register(EmailEvent);
+    lf.register(TimeStepEvent);
     // 支持自定义bpmn元素的边
     if (!lf.options.customBpmnEdge) {
       lf.register(SequenceFlow);
@@ -51,4 +53,5 @@ export {
   TaskModel,
   EmailEventView,
   EmailEventModel,
+  TimeStepEventView, TimeStepEventModel,
 };
