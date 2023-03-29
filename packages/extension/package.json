@@ -1,6 +1,6 @@
 {
   "name": "chartflow-editor-extension",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "LogicFlow extension",
   "main": "cjs/index.js",
   "module": "es/index.js",
@@ -32,7 +32,7 @@
     "readme.md"
   ],
   "dependencies": {
-    "chartflow-editor-core": "^1.2.3",
+    "chartflow-editor-core": "^1.2.4",
     "ids": "^1.0.0",
     "lodash-es": "^4.17.21",
     "preact": "^10.4.8"
