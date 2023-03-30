@@ -48,19 +48,19 @@ class Menu {
   private init() {
     const defaultNodeMenu = [
       {
-        text: '删除',
+        text: 'delete',
         callback: (node) => {
           this.lf.deleteNode(node.id);
         },
       },
       {
-        text: '编辑文本',
+        text: 'edit text',
         callback: (node) => {
           this.lf.graphModel.editText(node.id);
         },
       },
       {
-        text: '复制',
+        text: 'copy',
         callback: (node) => {
           this.lf.cloneNode(node.id);
         },
@@ -70,13 +70,13 @@ class Menu {
 
     const defaultEdgeMenu = [
       {
-        text: '删除',
+        text: 'delete',
         callback: (edge) => {
           this.lf.deleteEdge(edge.id);
         },
       },
       {
-        text: '编辑文本',
+        text: 'edit text',
         callback: (edge) => {
           this.lf.graphModel.editText(edge.id);
         },
@@ -88,7 +88,7 @@ class Menu {
 
     const DefaultSelectionMenu = [
       {
-        text: '删除',
+        text: 'delete',
         callback: (elements) => {
           this.lf.clearSelectElements();
           elements.edges.forEach(edge => this.lf.deleteEdge(edge.id));

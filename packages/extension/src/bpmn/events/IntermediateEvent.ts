@@ -1,4 +1,4 @@
-import { CircleNode, CircleNodeModel } from 'chartflow-editor-core';
+import { CircleNode, CircleNodeModel, h } from 'chartflow-editor-core';
 import { getBpmnId } from '../getBpmnId';
 
 class IntermediateEventModel extends CircleNodeModel {
@@ -37,6 +37,63 @@ class IntermediateEventModel extends CircleNodeModel {
 
 class IntermediateEventView extends CircleNode {
   static extendKey = 'IntermediateEventNode';
+  getShape() {
+    const { model } = this.props;
+    const style = model.getNodeStyle();
+    const { x, y, r, width, height } = model;
+    const outCircle = super.getShape();
+    return h(
+      'g',
+      {},
+      outCircle,
+      h(
+        'svg',
+        {
+          x: x - width / 2 + 5,
+          y: y - height / 2 + 5,
+          width: 25,
+          height: 25,
+          viewBox: '0 0 24 24',
+        },
+        h('path', {
+          fill: 'none',
+          d: 'M0 0h24v24H0z',
+        }),
+        h('path', {
+          stroke: style.stroke,
+          d: 'M0 M8.56 3.69a9 9 0 0 0 -2.92 1.95',
+        }),
+        h('path', {
+          stroke: style.stroke,
+          d: 'M3.69 8.56a9 9 0 0 0 -.69 3.44',
+        }),
+        h('path', {
+          stroke: style.stroke,
+          d: 'M3.69 15.44a9 9 0 0 0 1.95 2.92',
+        }),
+        h('path', {
+          stroke: style.stroke,
+          d: 'M8.56 20.31a9 9 0 0 0 3.44 .69',
+        }),
+        h('path', {
+          stroke: style.stroke,
+          d: 'M15.44 20.31a9 9 0 0 0 2.92 -1.95',
+        }),
+        h('path', {
+          stroke: style.stroke,
+          d: 'M20.31 15.44a9 9 0 0 0 .69 -3.44',
+        }),
+        h('path', {
+          stroke: style.stroke,
+          d: 'M20.31 8.56a9 9 0 0 0 -1.95 -2.92',
+        }),
+        h('path', {
+          stroke: style.stroke,
+          d: 'M15.44 3.69a9 9 0 0 0 -3.44 -.69',
+        }),
+      ),
+    );
+  }
 }
 
 const IntermediateEvent = {

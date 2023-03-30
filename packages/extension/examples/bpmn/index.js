@@ -219,6 +219,7 @@ window.onload = function () {
 
   document.querySelector('#download').addEventListener('click', () => {
     const data = lf.getGraphData();
+    console.log(data);
     this.download('logic-flow.xml', data);
     window.sessionStorage.setItem('lf-data', data);
   });
