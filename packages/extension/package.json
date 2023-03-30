@@ -1,6 +1,6 @@
 {
   "name": "chartflow-editor-extension",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "LogicFlow extension",
   "main": "cjs/index.js",
   "module": "es/index.js",

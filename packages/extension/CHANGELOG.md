@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.6](https://github.com/mcknx/ChartFlowEditor/compare/chartflow-editor-extension@1.2.5...chartflow-editor-extension@1.2.6) (2023-03-30)
+
+**Note:** Version bump only for package chartflow-editor-extension
+
+
+
+
+
 ## 1.2.5 (2023-03-29)
 
 
